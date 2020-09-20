@@ -3,20 +3,11 @@ import formatCurrency from "../util";
 import product from '../data.json'
 
 
-
-
-
 function searchingFor(term) {
     return function (x) {
         return x.title.toLowerCase().includes(term.toLowerCase()) || !term;
     }
 }
-
-
-
-
-
-
 
 export default class Products extends Component {
 
@@ -36,19 +27,6 @@ export default class Products extends Component {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     render() {
         const { term, product } = this.state;
         return (
@@ -59,8 +37,6 @@ export default class Products extends Component {
                         value={term}
                     />
                 </form>
-
-
 
                 <ul className="products">
                     {this.props.products.filter(searchingFor(term)).map((product) => (

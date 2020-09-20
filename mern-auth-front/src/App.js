@@ -61,13 +61,11 @@ export default function App() {
                     <Header />
                     <div className="container">
 
-                        <Home2 />
-
+                        {/* <Home2 /> */}
 
                         <Switch>
-
-
-                            <Route exact path="/" component={Home} />
+                            <Route exact path="/" component={Home2} />
+                            {/* <Route exact path="/" component={Home} /> */}
                             <Route exact path="/Login" component={Login} />
                             <Route exact path="/Register" component={Register} />
                         </Switch>

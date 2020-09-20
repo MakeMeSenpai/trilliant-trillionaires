@@ -1,7 +1,9 @@
 
 import React, { Component } from "react";
+import term from './Product'
 
 export default class Filter extends Component {
+
     render() {
         return (
             <div className="filter">
@@ -14,6 +16,7 @@ export default class Filter extends Component {
                         <option value="highest">Highest</option>
                     </select>
                 </div>
+
                 <div className="filter-size">
                     Filter{" "}
                     <select value={this.props.size} onChange={this.props.filterProducts}>
@@ -24,6 +27,18 @@ export default class Filter extends Component {
                         <option value="L">L</option>
                         <option value="XL">XL</option>
                         <option value="XXL">XXL</option>
+                    </select>
+                </div>
+
+                <div className="filter-bodytype">
+                    Filter{" "}
+                    <select value={this.props.size} onChange={this.props.filterProducts}>
+                        <option value="">ALL</option>
+                        <option value="Athletic">Athletic</option>
+                        <option value="TallBig">Tall and Big </option>
+                        <option value="Skinny">Skinny</option>
+                        <option value="Large">Large</option>
+
                     </select>
                 </div>
             </div>
