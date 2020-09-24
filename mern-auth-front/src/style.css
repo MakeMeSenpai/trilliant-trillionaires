@@ -63,30 +63,125 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e02525;
+  background-color: #EAE0D0;
 }
 #header .title {
-  margin: 0;
-  padding: 0 1rem;
-  color: #ffffff;
+  letter-spacing: 8px;
+  font-size: 32pt;
+  color: #F19732;
+  transition: 2000ms;
 }
+
+#header .title:hover {
+  letter-spacing: 14px;
+
+
+}
+
 #header .auth-options {
   height: 100%;
   display: flex;
 }
 #header .auth-options button {
-  padding: 0 1rem;
-  background-color: #b91b1b;
-  color: #ffffff;
-  font-size: 1.1rem;
+  width: 100px;
+  margin: 5px 10px;
+  font-size: 12pt;
+  font-weight: normal;
+  border: 1px solid #1E91D6;
+  background-color: #1E91D6;
+  color: #EAE0D0;
+  border-radius: 25px;
+  text-align: center;
+  transition: 1000ms;
 }
 #header .auth-options button:hover {
-  background-color: #be3a3a;
+  background-color: transparent;
+  border: 1px solid #1E91D6;
+  text-align: center;
+  color: #1E91D6;
+}
+
+#header .auth-options button:focus {
+  outline: none;
 }
 
 /* form */
 
-.form label,
+.form {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  border: 1px dashed #F19732;
+  background-color: #eae0d07d;
+  padding: 30px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-left: 10px;
+}
+
+.form label span {
+  color: #080708;
+  margin-left: 10px;
+  font-size: 14pt;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form input[type=text],
+input[type=email],
+.form input[type=password],
+textarea {
+  border: 0.5px solid #008fc1;
+  margin: 15px 0px;
+  font-size: 12pt;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none !important;
+}
+
+.form input[type=text]:focus, 
+.form input[type=email]:focus, 
+.form input[type=password]:focus, 
+textarea:focus {
+  border: 2px solid tomato;
+}
+
+::placeholder {
+  color: #333;
+  font-size: 12pt;
+  opacity: 0.5;
+  text-align: center;
+}
+.form input[type=submit]{
+  color: white;
+  background-color: #008fc1;
+  max-width: 50%;
+  border-radius: 20px;
+  border: none;
+  margin: 10px 0;
+  padding: 1em 1.5em;
+  align-self: flex-end;
+  transition: 800ms;
+}
+
+.form input[type=submit]:hover{
+  align-self: flex-end;
+  color: #008fc1;
+  background-color: transparent;
+  border: 1px solid rgb(27, 183, 160);
+}
+
+
+
+
+
+/* .form label,
 .form input {
   display: block;
 }
@@ -117,7 +212,7 @@ body {
   border-radius: 8px;
   background-color: #c8ecb7;
   font-size: 1.1rem;
-}
+} */
 
 /* todo list */
 

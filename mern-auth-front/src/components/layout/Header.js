@@ -15,10 +15,10 @@ export default function Header() {
 
 
                 {userData.user ? (
-                    <h2>Welcome {userData.user.displayName}</h2>
+                    <h3>Welcome {userData.user.displayName}</h3>
                 ) : (
                         <>
-                            <h3>You are not logged in</h3>
+                            <h3>Currently Logged Off</h3>
                         </>
                     )}
             </div>
