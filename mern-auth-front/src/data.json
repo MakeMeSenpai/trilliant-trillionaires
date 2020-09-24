@@ -11,7 +11,11 @@
                 "XL",
                 "XXL"
             ],
-            "price": 29.9
+            "price": 29.9,
+            "bodytype": [
+                "Skinny",
+                "Large"
+            ]
         },
         {
             "_id": "dress2",
@@ -23,7 +27,10 @@
                 "M",
                 "L"
             ],
-            "price": 18.9
+            "price": 18.9,
+            "bodytype": [
+                "Skinny"
+            ]
         },
         {
             "_id": "dress3",
@@ -35,7 +42,11 @@
                 "M",
                 "L"
             ],
-            "price": 14.9
+            "price": 14.9,
+            "bodytype": [
+                "Skinny",
+                "Large"
+            ]
         },
         {
             "_id": "dress4",
@@ -45,7 +56,10 @@
             "availableSizes": [
                 "XL"
             ],
-            "price": 25.9
+            "price": 25.9,
+            "bodytype": [
+                "Large"
+            ]
         },
         {
             "_id": "dress5",
@@ -57,7 +71,10 @@
                 "L",
                 "XL"
             ],
-            "price": 10.9
+            "price": 10.9,
+            "bodytype": [
+                "Large"
+            ]
         },
         {
             "_id": "dress6",
@@ -68,7 +85,10 @@
                 "XL",
                 "XXL"
             ],
-            "price": 49.9
+            "price": 49.9,
+            "bodytype": [
+                "Large"
+            ]
         }
     ]
 }

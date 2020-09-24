@@ -14,6 +14,7 @@ class App extends React.Component {
             products: data.products,
             size: "",
             sort: "",
+            bodytype: "",
 
         };
     }
@@ -54,6 +55,22 @@ class App extends React.Component {
             });
         }
     };
+
+    filterBodytype = (event) => {
+        // impl
+        console.log(event.target.value);
+        if (event.target.value === "") {
+            this.setState({ bodytype: event.target.value, products: data.products });
+        } else {
+            this.setState({
+                bodytype: event.target.value,
+                products: data.products.filter(
+                    (product) => product.bodytype.indexOf(event.target.value) >= 0
+                ),
+            });
+        }
+    };
+
     render() {
 
         return (
@@ -68,6 +85,8 @@ class App extends React.Component {
                                 count={this.state.products.length}
                                 size={this.state.size}
                                 sort={this.state.sort}
+                                bodytype={this.state.bodytype}
+                                filterBodytype={this.filterBodytype}
                                 filterProducts={this.filterProducts}
                                 sortProducts={this.sortProducts}
                             ></Filter>

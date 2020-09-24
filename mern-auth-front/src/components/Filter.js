@@ -1,6 +1,5 @@
 
 import React, { Component } from "react";
-import term from './Product'
 
 export default class Filter extends Component {
 
@@ -32,12 +31,12 @@ export default class Filter extends Component {
 
                 <div className="filter-bodytype">
                     Filter{" "}
-                    <select value={this.props.size} onChange={this.props.filterProducts}>
+                    <select value={this.props.bodytype} onChange={this.props.filterBodytype}>
                         <option value="">ALL</option>
-                        <option value="L">Athletic</option>
-                        <option value="M">Tall and Big </option>
-                        <option value="XL">Skinny</option>
-                        <option value="L">Large</option>
+                        <option value="Athletic">Athletic</option>
+                        <option value="Tall and Big">Tall and Big </option>
+                        <option value="Skinny">Skinny</option>
+                        <option value="Large">Large</option>
 
                     </select>
                 </div>
