@@ -34,10 +34,10 @@ export default class Filter extends Component {
                     Filter{" "}
                     <select value={this.props.size} onChange={this.props.filterProducts}>
                         <option value="">ALL</option>
-                        <option value="Athletic">Athletic</option>
-                        <option value="TallBig">Tall and Big </option>
-                        <option value="Skinny">Skinny</option>
-                        <option value="Large">Large</option>
+                        <option value="L">Athletic</option>
+                        <option value="M">Tall and Big </option>
+                        <option value="XL">Skinny</option>
+                        <option value="L">Large</option>
 
                     </select>
                 </div>
