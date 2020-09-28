@@ -40,6 +40,17 @@ export default class Filter extends Component {
 
                     </select>
                 </div>
+
+
+                <div className="filter-gender">
+                    Filter{" "}
+                    <select value={this.props.gender} onChange={this.props.filterGender}>
+                        <option value="">ALL</option>
+                        <option value="W">W</option>
+                        <option value="M">M</option>
+
+                    </select>
+                </div>
             </div>
         );
     }

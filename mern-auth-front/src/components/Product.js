@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
-import product from '../data.json'
+import product from '../trilliant.json'
 
 
 function searchingFor(term) {
     return function (x) {
-        return x.title.toLowerCase().includes(term.toLowerCase()) || !term;
+        return x.name.toLowerCase().includes(term.toLowerCase()) || !term;
     }
 }
 
@@ -39,22 +39,33 @@ export default class Products extends Component {
                 </form>
 
                 <ul className="products">
+
+
                     {this.props.products.filter(searchingFor(term)).map((product) => (
-                        <li key={product._id}>
+                        < li key={product._id} >
                             <div className="product">
-                                <a href={"#" + product._id}>
-                                    <img src={product.image} alt={product.title}></img>
-                                    <p>{product.title}</p>
+                                <a href={product.url}>
+                                    <img src={product.url} alt={product.name}></img>
                                 </a>
+                                <p>{product.name}</p>
+                                <p>{product.store}</p>
+                                <p>{product.price}</p>
+                                <p>{product.url}</p>
+                                <p>{product.averageFit}</p>
+                                <p>{product.averageOverall}</p>
+                                <p>{product.averageQuality}</p>
+                                <p>{product.averageShipping}</p>
+
+
                                 <div className="product-price">
-                                    <div>{formatCurrency(product.price)}</div>
-                                    <button className="button primary">Add To Cart</button>
+                                    {/* <div>{formatCurrency(product.price)}</div> */}
+                                    {/* <button className="button primary">Add To Cart</button> */}
                                 </div>
                             </div>
                         </li>
                     ))}
                 </ul>
-            </div>
+            </div >
         );
     }
 }
