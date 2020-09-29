@@ -88,7 +88,7 @@
             "helpfulCount": 0,
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d655f29a28e1415746860a2\"}]",
-            "image": "/images/5.png"
+            "image": "/images/6.png"
         },
         {
             "_id": "ObjectId(5d655f273d63dfd520ec9f77)",
@@ -106,7 +106,7 @@
             "helpfulCount": 0,
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d655f29a28e1415746860a3\"}]",
-            "image": "/images/6.png"
+            "image": "/images/7.png"
         },
         {
             "_id": "ObjectId(5d655f263d63dfd520ec9f6c)",
@@ -124,7 +124,7 @@
             "helpfulCount": 0,
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d655f28a28e1415746860a0\"}]",
-            "image": "/images/7.png"
+            "image": "/images/8.png"
         },
         {
             "_id": "ObjectId(5d67f7f5c39579001e0292e9)",
@@ -142,7 +142,7 @@
             "helpfulCount": 0,
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d67f7f4c39579001e0292e8\"}]",
-            "image": "/images/8.png"
+            "image": "/images/9.png"
         },
         {
             "_id": "ObjectId(5d68109bc39579001e0292ed)",
@@ -160,7 +160,7 @@
             "helpfulCount": 0,
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d68109bc39579001e0292ec\"}]",
-            "image": "/images/9.png"
+            "image": "/images/10.png"
         },
         {
             "_id": "ObjectId(5d875d614cfe2b001e6f345e)",
@@ -178,7 +178,7 @@
             "helpfulCount": 0,
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d875d614cfe2b001e6f345d\"}]",
-            "image": "/images/10.png"
+            "image": "/images/11.png"
         },
         {
             "_id": "ObjectId(5d655ef03d63dfd520ec983a)",
@@ -196,7 +196,7 @@
             "helpfulCount": 0,
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d655ef2a28e141574685e7a\"}]",
-            "image": "/images/11.png"
+            "image": "/images/12.png"
         },
         {
             "_id": "ObjectId(5d87a4f7222ffd001e72f105)",
