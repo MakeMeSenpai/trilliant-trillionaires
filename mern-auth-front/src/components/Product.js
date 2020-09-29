@@ -16,6 +16,8 @@ export default class Products extends Component {
         this.state = {
             product: product,
             term: "",
+
+
         }
         this.searchHandler = this.searchHandler.bind(this);
     }
@@ -30,6 +32,7 @@ export default class Products extends Component {
     render() {
         const { term, product } = this.state;
         return (
+
             <div>
                 <form>
                     <input type="text"
@@ -40,12 +43,19 @@ export default class Products extends Component {
 
                 <ul className="products">
 
+                    <picture>
+
+                        <source srcSet={product.url} />
+                        <img src={product.url} alt={product.alt} />
+                    </picture>
+
 
                     {this.props.products.filter(searchingFor(term)).map((product) => (
                         < li key={product._id} >
                             <div className="product">
                                 <a href={product.url}>
-                                    <img src={product.url} alt={product.name}></img>
+
+                                    <img src={product.image} alt={product.name}></img>
                                 </a>
                                 <p>{product.name}</p>
                                 <p>{product.store}</p>

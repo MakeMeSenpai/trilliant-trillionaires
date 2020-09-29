@@ -8,6 +8,7 @@ import Header from './components/layout/Header'
 import './style.css'
 import UserContext from './context/UserContext';
 import Home2 from './components/pages/Home2'
+import Test from './components/pages/Test'
 
 
 
@@ -61,7 +62,6 @@ export default function App() {
                     <Header />
                     <div className="container">
 
-                        {/* <Home2 /> */}
 
                         <Switch>
                             <Route exact path="/" component={Home2} />
