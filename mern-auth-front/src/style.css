@@ -9,8 +9,46 @@
 }
 
 a {
-  color: #2199df;
-  text-decoration: unset;
+  color: #2F56B0;
+  position: relative;
+  text-decoration: none;
+  transition: color .4 ease-out;
+  font-size: 14pt;
+  outline: none;
+}
+
+
+a::after{
+  border-radius: 1em;
+  border-top: .1em solid #2F56B0;
+  content: "";
+  position: absolute;
+  outline: none;
+  right: 100%;
+  bottom: .14em;
+  left: 100%;
+  transition: right .4s cubic-bezier(0, 0.5, 0, 1);
+}
+a:hover{
+  color: #457DFB;
+  text-decoration: none;
+}
+a:hover::after {
+  right: 0;
+  left: 0;
+}
+
+a:visited {
+  color: rgb(128, 23, 128);
+}
+
+a:focus{
+  outline: none;
+}
+
+
+a:active {
+  outline: none;
 }
 
 ul {
@@ -34,12 +72,22 @@ h4,
 h5,
 h6,
 p,
-ul,
-ol,
-li {
+ol{
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+/* ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 1em;
+} */
 
 /* general */
 
@@ -47,13 +95,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.page {
-  padding: 1rem;
-}
 
 .container {
   margin: 0 auto;
   max-width: 900px;
+}
+.nav-link-container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+
 }
 
 /* header */
@@ -61,26 +114,29 @@ body {
 #header {
   height: 50px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   background-color: #EAE0D0;
 }
-#header .title {
-  letter-spacing: 8px;
-  font-size: 32pt;
+.title {
+  letter-spacing: 4px;
+  font-size: 18pt;
   color: #F19732;
   transition: 2000ms;
 }
+.title-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
-#header .title:hover {
+.title:hover {
   letter-spacing: 14px;
-
-
 }
 
 #header .auth-options {
   height: 100%;
   display: flex;
+  align-items: baseline;
 }
 #header .auth-options button {
   width: 100px;
