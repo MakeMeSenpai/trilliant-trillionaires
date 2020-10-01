@@ -56,33 +56,8 @@ ul {
   list-style: none;
 }
 
-button,
-input[type="submit"] {
-  border: none;
-  background: none;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol{
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
 
-ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-}
 li {
   display: flex;
   justify-content: flex-end;
@@ -150,12 +125,7 @@ body {
   text-align: center;
   transition: 1000ms;
 }
-#header .auth-options button:hover {
-  background-color: transparent;
-  border: 1px solid #1E91D6;
-  text-align: center;
-  color: #1E91D6;
-}
+
 
 #header .auth-options button:focus {
   outline: none;
@@ -272,14 +242,14 @@ textarea:focus {
 
 /* todo list */
 
-.todo-list ul {
+/* .todo-list ul {
   list-style: disc;
   cursor: pointer;
 }
 
 .todo-list li:hover {
   text-decoration: line-through;
-}
+} */
 
 /* error notice */
 
@@ -316,27 +286,21 @@ textarea:focus {
 
 
 /* products */
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
+.products  ul{
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+
 }
-.products li {
-  flex: 0 1 29rem;
-  height: 47rem;
-  padding: 1rem;
-}
-.product {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
+
+
+
+
+
+
 .product img {
+
   max-width: 37rem;
   max-height: 37rem;
 }

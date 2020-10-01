@@ -33,7 +33,7 @@ export default class Products extends Component {
         const { term, product } = this.state;
         return (
 
-            <div>
+            <div className="search bar">
                 <form>
                     <input type="text"
                         onChange={this.searchHandler}
@@ -42,37 +42,25 @@ export default class Products extends Component {
                 </form>
 
                 <ul className="products">
-
                     <picture>
-
                         <source srcSet={product.url} />
                         <img src={product.url} alt={product.alt} />
                     </picture>
 
 
                     {this.props.products.filter(searchingFor(term)).map((product) => (
-                        < li key={product._id} >
-                            <div className="product">
-                                <a href={product.url}>
+                        // < li key={product._id} >
 
-                                    <img src={product.image} alt={product.name}></img>
-                                </a>
-                                <p>{product.name}</p>
-                                <p>{product.store}</p>
-                                <p>{product.price}</p>
-                                <p>{product.url}</p>
-                                <p>{product.averageFit}</p>
-                                <p>{product.averageOverall}</p>
-                                <p>{product.averageQuality}</p>
-                                <p>{product.averageShipping}</p>
+                        <div className="product">
+                            <a href={product.url}>
+                                <img src={product.image} alt={product.name}></img>
+                            </a>
+                            <p>{product.name}</p>
+                            <p>{product.store}</p>
+                            <div>{formatCurrency(product.price)}</div>
 
-
-                                <div className="product-price">
-                                    {/* <div>{formatCurrency(product.price)}</div> */}
-                                    {/* <button className="button primary">Add To Cart</button> */}
-                                </div>
-                            </div>
-                        </li>
+                        </div>
+                        // </li>
                     ))}
                 </ul>
             </div >
@@ -82,4 +70,4 @@ export default class Products extends Component {
 
 
 
-// </div >
+
