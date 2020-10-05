@@ -9,6 +9,7 @@ import './style.css'
 import UserContext from './context/UserContext';
 import Home2 from './components/pages/Home2'
 import Test from './components/pages/Test'
+import Cardhome from './components/Cardhome'
 
 
 
@@ -54,22 +55,22 @@ export default function App() {
     }, []);
 
 
+
     return (
         <div>
             <BrowserRouter>
                 {/* creates states than shared with other components */}
                 <UserContext.Provider value={{ userData, setUserData }}>
                     <Header />
-                    <div className="container">
 
 
-                        <Switch>
-                            <Route exact path="/" component={Home2} />
-                            {/* <Route exact path="/" component={Home} /> */}
-                            <Route exact path="/Login" component={Login} />
-                            <Route exact path="/Register" component={Register} />
-                        </Switch>
-                    </div>
+
+                    <Switch>
+                        <Route exact path="/" component={Home2} />
+                        {/* <Route exact path="/" component={Home} /> */}
+                        <Route exact path="/Login" component={Login} />
+                        <Route exact path="/Register" component={Register} />
+                    </Switch>
                 </UserContext.Provider>
             </BrowserRouter>
         </div>

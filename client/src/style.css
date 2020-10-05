@@ -2,54 +2,17 @@
 
 /* reset */
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a {
-  color: #2F56B0;
-  position: relative;
-  text-decoration: none;
-  transition: color .4 ease-out;
-  font-size: 14pt;
-  outline: none;
-}
 
 
-a::after{
-  border-radius: 1em;
-  border-top: .1em solid #2F56B0;
-  content: "";
-  position: absolute;
-  outline: none;
-  right: 100%;
-  bottom: .14em;
-  left: 100%;
-  transition: right .4s cubic-bezier(0, 0.5, 0, 1);
-}
-a:hover{
-  color: #457DFB;
-  text-decoration: none;
-}
-a:hover::after {
-  right: 0;
-  left: 0;
-}
-
-a:visited {
-  color: rgb(128, 23, 128);
-}
-
-a:focus{
-  outline: none;
-}
 
 
-a:active {
-  outline: none;
-}
 
 ul {
   margin-left: 1.5rem;
@@ -68,13 +31,11 @@ li {
 
 body {
   font-family: "Roboto", sans-serif;
+
 }
 
 
-.container {
-  margin: 0 auto;
-  max-width: 900px;
-}
+
 .nav-link-container {
   margin: 0;
   display: flex;
@@ -84,28 +45,48 @@ body {
 
 }
 
+
+.second-nav-container{
+  padding-top:70px;
+  display: flex;
+  flex-direction: row;
+
+  display: flex;
+  justify-content: center;
+
+
+
+
+
+
+}
 /* header */
 
 #header {
+
   height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #EAE0D0;
 }
 .title {
+ 
   letter-spacing: 4px;
   font-size: 18pt;
   color: #F19732;
   transition: 2000ms;
+  outline: none;
 }
 .title-container {
+
   display: flex;
   justify-content: flex-end;
+  outline: none;
 }
 
 .title:hover {
-  letter-spacing: 14px;
+  letter-spacing: 10px;
+  outline: none;
 }
 
 #header .auth-options {
@@ -114,16 +95,7 @@ body {
   align-items: baseline;
 }
 #header .auth-options button {
-  width: 100px;
-  margin: 5px 10px;
-  font-size: 12pt;
-  font-weight: normal;
-  border: 1px solid #1E91D6;
-  background-color: #1E91D6;
-  color: #EAE0D0;
-  border-radius: 25px;
-  text-align: center;
-  transition: 1000ms;
+
 }
 
 
@@ -206,53 +178,6 @@ textarea:focus {
 
 
 
-
-/* .form label,
-.form input {
-  display: block;
-}
-.form input {
-  margin-bottom: 1rem;
-}
-.form label {
-  margin-bottom: 0.2rem;
-}
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="password"] {
-  width: 100%;
-  padding: 0.3rem;
-  border: 1px solid #c2c2c2;
-  border-radius: 8px;
-  background-color: #f0f0f0;
-  font-size: 1.1rem;
-}
-.form input:focus {
-  border: 1px solid #50a4e9;
-  box-shadow: inset 0px 0px 5px rgba(38, 142, 228, 0.5);
-  outline: none;
-}
-.form input[type="submit"] {
-  padding: 0.3rem 0.5rem;
-  border: 1px solid #6aa051;
-  border-radius: 8px;
-  background-color: #c8ecb7;
-  font-size: 1.1rem;
-} */
-
-/* todo list */
-
-/* .todo-list ul {
-  list-style: disc;
-  cursor: pointer;
-}
-
-.todo-list li:hover {
-  text-decoration: line-through;
-} */
-
-/* error notice */
-
 .error-notice {
   margin: 1rem 0;
   padding: 0.5rem;
@@ -284,59 +209,86 @@ textarea:focus {
 }
 
 
+/* Home Screen */
 
 /* products */
-.products  ul{
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px; 
-  column-gap: 10px;
-  row-gap: 15px;
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 300px;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
 
 }
 
+.product-store{
+  color: grey;
+  padding: 5px;
+}
 
+.product-price {
+  font-size: 2rem;
+  font-weight: bold;
 
+}
 
-
+/* .product-brand {
+  font-size: 1.2rem;
+  color: #808080;
+}  */
 
 .product img {
 
-  max-width: 37rem;
-  max-height: 37rem;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
 }
-.product-price {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.product-price div,
-.product-price button {
-  text-align: center;
-  flex: 1;
-}
-.product-price div {
-  font-size: 2rem;
-}
-.button {
-  padding: 1rem;
-  border: 0.1rem #c0c0c0 solid;
-  background-color: #f0f0f0;
-  cursor: pointer;
-}
-.button:hover {
-  border: 0.1rem #808080 solid;
-}
-.button.primary {
-  background-color: #f0c040;
-}
+
+
+
 /* Filter */
 .filter {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 2rem;
+  margin: 0;
   border-bottom: 0.1rem #c0c0c0 solid;
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+
 }
 .filter div {
   flex: 1;
 }
+
+
+
+
+.search-container input{
+  height: 30px;
+  width: 150%;
+}
+
+
+.carousel{
+  padding-top: 20px;
+
+}
+.carousel-item{
+  width: 100vh;
+  height: 50vh;
+}
+
+.carousel image{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
