@@ -56,7 +56,10 @@ export default class Products extends Component {
 
 
 
+
                 <ul className="products">
+
+
                     <picture>
                         <source srcSet={product.url} />
                         <img src={product.url} alt={product.alt} />
@@ -67,7 +70,7 @@ export default class Products extends Component {
                         < li key={product._id} >
                             <div className="product">
                                 <a href={product.url}>
-                                    <img src={product.image} alt={product.name}></img>
+                                    <img src={product.image} ></img>
                                 </a>
                                 <div className="product-name">
                                     {product.name}
@@ -79,8 +82,14 @@ export default class Products extends Component {
                             </div>
                         </li>
                     ))}
+
+
                 </ul>
-            </div >
+            </div>
+
+
+
+
         );
     }
 }

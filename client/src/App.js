@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Switch, Route } from "react-router-dom"
-import Home from './components/pages/Home'
 import Axios from 'axios';
 import Login from './components/auth/Login'
 import Register from './components/auth/Register'
@@ -8,7 +7,6 @@ import Header from './components/layout/Header'
 import './style.css'
 import UserContext from './context/UserContext';
 import Home2 from './components/pages/Home2'
-import Test from './components/pages/Test'
 import Cardhome from './components/Cardhome'
 
 
