@@ -11,9 +11,6 @@
 
 
 
-
-
-
 ul {
   margin-left: 1.5rem;
   list-style: none;
@@ -36,14 +33,7 @@ body {
 
 
 
-.nav-link-container {
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end !important;
-  align-items: baseline;
 
-}
 
 
 .second-nav-container{
@@ -62,32 +52,45 @@ body {
 }
 /* header */
 
-#header {
+/* #header {
 
   height: 50px;
   display: flex;
+  flex-direction: row;
+  background-color: #eae0d07d;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
+} */
+
+.title-container {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #eae0d07d;
+  justify-content: space-between;
+  align-items: baseline;
+  
 }
 .title {
- 
   letter-spacing: 4px;
   font-size: 18pt;
   color: #F19732;
   transition: 2000ms;
   outline: none;
 }
-.title-container {
-
-  display: flex;
-  justify-content: flex-end;
-  outline: none;
+.title-link{
+  margin: 0px 10px;
+}
+.title-link:hover {
+  text-decoration: none;
 }
 
 .title:hover {
   letter-spacing: 10px;
-  outline: none;
+  text-decoration: none !important;
 }
+
+
 
 #header .auth-options {
   height: 100%;
@@ -102,6 +105,65 @@ body {
 #header .auth-options button:focus {
   outline: none;
 }
+
+
+/* ------------- Link Styles ---------- */
+
+.nav-link-container {
+  margin: 0;
+  display: flex;
+}
+
+
+.nav-link-container a {
+  text-decoration: none;
+}
+
+
+/* .nav-link-container > a {
+  color: red;
+  position: relative;
+  text-decoration: none;
+  transition: color .4 ease-out;
+  font-size: 14pt;
+  outline: none;
+} */
+
+/*
+a::after{
+  border-radius: 1em;
+  border-top: .1em solid #2F56B0;
+  content: "";
+  position: absolute;
+  outline: none;
+  right: 100%;
+  bottom: .14em;
+  left: 100%;
+  transition: right .4s cubic-bezier(0, 0.5, 0, 1);
+}
+a:hover{
+  color: #457DFB;
+  text-decoration: none;
+}
+a:hover::after {
+  right: 0;
+  left: 0;
+}
+
+a:visited {
+  color: rgb(128, 23, 128);
+}
+
+a:focus{
+  outline: none;
+}
+
+
+a:active {
+  outline: none;
+} */
+
+
 
 /* form */
 

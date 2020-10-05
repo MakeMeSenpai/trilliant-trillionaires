@@ -22,12 +22,15 @@ export default function Header() {
                         </>
                     )}
             </div>
-            <Link to="/">
-                <div className="title-container" >
+            <div className="title-container">
+                <Link to="/" className='title-link'>
                     <h1 className="title"> Trilliant</h1>
+                </Link>
+                <div>
+                    <AuthOptions />
                 </div>
-            </Link>
-            <AuthOptions />
+                
+            </div>
         </header>
     )
 }
