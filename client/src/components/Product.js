@@ -60,10 +60,10 @@ export default class Products extends Component {
                 <ul className="products">
 
 
-                    <picture>
+                    {/* <picture>
                         <source srcSet={product.url} />
                         <img src={product.url} alt={product.alt} />
-                    </picture>
+                    </picture> */}
 
 
                     {this.props.products.filter(searchingFor(term)).map((product) => (
