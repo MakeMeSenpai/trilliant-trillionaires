@@ -278,13 +278,10 @@ textarea:focus {
 
 /* products */
 .products  {
-  margin-left: -3.5em !important;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 2fr);
-  width: 1000px;
-  min-width: 1000px;
-  max-width: 1000px;
+  grid-template-rows: repeat(1, 1fr);
+
 }
 
 ul.products{
@@ -371,13 +368,13 @@ div .filter{
 .carousel {
   margin-bottom: 2em;
   height: 50vh;
-  width: 10000vh;
+  width: 100%;
 
 }
 
 .carousel-item{
   height: 50vh;
-  width: 10000vh;
+  width: 100%;
 }
 
 .carousel image{
@@ -385,3 +382,10 @@ div .filter{
   max-height: 100%;
 
 } 
+
+.carousel-image{
+  object-fit: cover;
+  width: 100%;
+}
+
+/* software.lord@gmail.com */

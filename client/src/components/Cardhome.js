@@ -7,13 +7,14 @@ export default function Cardhome() {
         <Carousel>
             <Carousel.Item>
 
-                <img src={require("./carouselimages/fashion1.jpg")}
+                <img className="carousel-image" src={require("./carouselimages/fashion1.jpg")}
 
                 />
             </Carousel.Item>
             <Carousel.Item>
 
-                <img src={require("./carouselimages/fashion2.jpg")}
+                <img className="carousel-image" src={require("./carouselimages/fashion2.jpg")}
+       
 
 
                 />
@@ -23,7 +24,7 @@ export default function Cardhome() {
 
             <Carousel.Item>
 
-                <img src={require("./carouselimages/fashion3.png")}
+                <img className="carousel-image" src={require("./carouselimages/fashion3.png")}
 
                 />
 
