@@ -8,7 +8,7 @@ import './style.css'
 import UserContext from './context/UserContext';
 import Home2 from './components/pages/Home2'
 import Cardhome from './components/Cardhome'
-
+import Landing from './components/pages/Landing'
 
 
 
@@ -64,7 +64,8 @@ export default function App() {
 
 
                     <Switch>
-                        <Route exact path="/" component={Home2} />
+                        <Route exact path="/" component={Landing} /> 
+                        <Route exact path="/catelog" component={Home2} />
                         {/* <Route exact path="/" component={Home} /> */}
                         <Route exact path="/Login" component={Login} />
                         <Route exact path="/Register" component={Register} />
