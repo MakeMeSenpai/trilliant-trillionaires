@@ -1,12 +1,17 @@
-.img-banner {
-    object-fit: cover;
-    width: 1000px;
-    
+.landing-main {
+    background-color:#eae0d07d;
 }
+
+
 
 .section-header{
     height: 95vh;
     background-image: url("https://images.pexels.com/photos/291762/pexels-photo-291762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: cover;
     background-position: center;
+}
+
+.section-about {
+    height: 100vh;
+
 }

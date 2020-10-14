@@ -41,7 +41,6 @@ export default function Register() {
 
     return (
         <div className="page">
-            <h2>Register</h2>
             {error && (
                 <ErrorNotice message={error} clearError={() => setError(undefined)} />
             )}
