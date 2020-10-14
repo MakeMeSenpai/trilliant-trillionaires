@@ -29,8 +29,10 @@ export default function AuthOptions() {
                 <button onClick={logout}>Log out</button>
             ) : (
                     <>
-                        <button onClick={register}>Register</button>
-                        <button onClick={login}>Log in</button>
+                        <ul className='nav-link-container'>
+                            <li><a href="/register">Register</a></li>
+                            <li><a href="/login">Log In</a></li>
+                        </ul>
                     </>
                 )}
         </nav>

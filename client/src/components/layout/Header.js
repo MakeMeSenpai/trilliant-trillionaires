@@ -18,16 +18,19 @@ export default function Header() {
                     <h3>Welcome {userData.user.displayName}</h3>
                 ) : (
                         <>
-                            <h3>Currently Logged Off</h3>
+                
                         </>
                     )}
             </div>
-            <Link to="/">
-                <h1 className="title" > Trilliant</h1>
-
-
-            </Link>
-            <AuthOptions />
+            <div className="title-container">
+                <Link to="/" className='title-link'>
+                    <h1 className="title"> Trilliant</h1>
+                </Link>
+                <div>
+                    <AuthOptions />
+                </div>
+                
+            </div>
         </header>
     )
 }

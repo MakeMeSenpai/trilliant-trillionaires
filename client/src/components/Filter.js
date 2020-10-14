@@ -1,12 +1,18 @@
 
 import React, { Component } from "react";
+import product from '../trilliant.json'
+
+
 
 export default class Filter extends Component {
 
+
+
     render() {
+
         return (
             <div className="filter">
-                <div className="filter-result">{this.props.count} Products</div>
+                {/* <div className="filter-result">{this.props.count} Products</div> */}
                 <div className="filter-sort">
                     Order{" "}
                     <select value={this.props.sort} onChange={this.props.sortProducts}>
@@ -15,6 +21,9 @@ export default class Filter extends Component {
                         <option value="highest">Highest</option>
                     </select>
                 </div>
+
+
+
 
                 <div className="filter-size">
                     Filter{" "}
@@ -32,11 +41,11 @@ export default class Filter extends Component {
                 <div className="filter-bodytype">
                     Filter{" "}
                     <select value={this.props.bodytype} onChange={this.props.filterBodytype}>
-                        <option value="">ALL</option>
-                        <option value="Athletic">Athletic</option>
-                        <option value="Tall and Big">Tall and Big </option>
-                        <option value="Skinny">Skinny</option>
-                        <option value="Large">Large</option>
+                        <option value="0">ALL</option>
+                        <option value="60">Athletic</option>
+                        <option value="80">Big and Tall </option>
+                        <option value="40">Skinny</option>
+                        <option value="100">Large</option>
 
                     </select>
                 </div>

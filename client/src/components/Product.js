@@ -17,69 +17,83 @@ export default class Products extends Component {
             product: product,
             term: "",
 
-
         }
         this.searchHandler = this.searchHandler.bind(this);
     }
+
 
     searchHandler(event) {
         this.setState({ term: event.target.value })
 
     }
 
-
-
     render() {
         const { term, product } = this.state;
         return (
 
             <div>
-                <form>
-                    <input type="text"
-                        onChange={this.searchHandler}
-                        value={term}
-                    />
-                </form>
+
+
+
+                <ul className='second-nav-container'>
+                    <li><a href="">Men</a></li>
+                    <li><a href="">Women</a></li>
+                    <li><a href="">Shirts</a></li>
+                    <li><a href="">Dresses</a></li>
+                    <li><a href="">Pants</a></li>
+                    <li> <form className="search-container">
+                        <input type="text"
+                            onChange={this.searchHandler}
+                            value={term}
+                            placeholder="Search"
+                        />
+                    </form>
+                    </li>
+
+                </ul>
+
+
+
+
+
 
                 <ul className="products">
 
-                    <picture>
 
+                    {/* <picture>
                         <source srcSet={product.url} />
                         <img src={product.url} alt={product.alt} />
-                    </picture>
+                    </picture> */}
 
 
                     {this.props.products.filter(searchingFor(term)).map((product) => (
                         < li key={product._id} >
                             <div className="product">
                                 <a href={product.url}>
-
-                                    <img src={product.image} alt={product.name}></img>
+                                    <img src={product.image} ></img>
                                 </a>
-                                <p>{product.name}</p>
-                                <p>{product.store}</p>
-                                <p>{product.price}</p>
-                                <p>{product.url}</p>
-                                <p>{product.averageFit}</p>
-                                <p>{product.averageOverall}</p>
-                                <p>{product.averageQuality}</p>
-                                <p>{product.averageShipping}</p>
-
-
+                                <div className="product-name">
+                                    {product.name}
+                                </div>
+                                <div className="product-store">{product.store}</div>
                                 <div className="product-price">
-                                    {/* <div>{formatCurrency(product.price)}</div> */}
-                                    {/* <button className="button primary">Add To Cart</button> */}
+                                    {formatCurrency(product.price)}
                                 </div>
                             </div>
                         </li>
                     ))}
+
+
                 </ul>
-            </div >
+            </div>
+
+
+
+
         );
     }
 }
 
 
 
-// </div >
+

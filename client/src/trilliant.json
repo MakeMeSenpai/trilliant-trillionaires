@@ -1,24 +1,6 @@
 {
     "products": [
         {
-            "_id": "ObjectId(5d655f243d63dfd520ec9f26)",
-            "store": "Veda",
-            "name": "Playa Cotton Maxi Dress Black",
-            "price": 298,
-            "url": "https://thisisveda.com/collections/summer-2019/products/playa-cotton-maxi-dress-black",
-            "createdAt": "2019-08-27T16:49:40.732Z",
-            "tags": "",
-            "updatedAt": "2019-08-27T16:49:43.113Z",
-            "averageFit": 60,
-            "averageOverall": 80,
-            "averageQuality": 80,
-            "averageShipping": -1,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f26a28e141574686095\"}]",
-            "image": "/images/1.png"
-        },
-        {
             "_id": "ObjectId(5d655f273d63dfd520ec9f8e)",
             "store": "Veda",
             "name": "Playa Maxi Dress Frances Costelloe Nudes",
@@ -35,42 +17,6 @@
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d655f29a28e1415746860a4\"}]",
             "image": "/images/2.png"
-        },
-        {
-            "_id": "ObjectId(5d65674619c602001e066243)",
-            "store": "",
-            "name": "",
-            "price": 0,
-            "url": "http://localhost:3000/index.html",
-            "createdAt": "2019-08-27T17:24:22.007Z",
-            "tags": "",
-            "updatedAt": "2019-11-09T19:30:46.245Z",
-            "averageFit": 76,
-            "averageOverall": 66,
-            "averageQuality": 76,
-            "averageShipping": 35,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d65674519c602001e066242\"},{\"$oid\":\"5d8908b849adf2063c5dac8d\"},{\"$oid\":\"5dc712b84dbbb9001e2e71b2\"},{\"$oid\":\"5dc713934dbbb9001e2e71b4\"},{\"$oid\":\"5dc713d74dbbb9001e2e71b6\"}]",
-            "image": "/images/3.png"
-        },
-        {
-            "_id": "ObjectId(5d655f273d63dfd520ec9f7a)",
-            "store": "Veda",
-            "name": "Ginger Leather Bucket Hat",
-            "price": 148,
-            "url": "https://thisisveda.com/collections/summer-2019/products/ginger-leather-bucket-hat",
-            "createdAt": "2019-08-27T16:49:43.190Z",
-            "tags": "",
-            "updatedAt": "2019-08-27T16:49:45.566Z",
-            "averageFit": 100,
-            "averageOverall": 100,
-            "averageQuality": 100,
-            "averageShipping": -1,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f28a28e1415746860a1\"}]",
-            "image": "/images/4.png"
         },
         {
             "_id": "ObjectId(5d655f273d63dfd520ec9f88)",
@@ -127,60 +73,6 @@
             "image": "/images/8.png"
         },
         {
-            "_id": "ObjectId(5d67f7f5c39579001e0292e9)",
-            "store": "",
-            "name": "",
-            "price": 0,
-            "url": "https://stackoverflow.com/questions/42719750/sequelize-relation-with-where-in-array?rq=1",
-            "createdAt": "2019-08-29T16:06:13.009Z",
-            "tags": "",
-            "updatedAt": "2019-08-29T16:06:13.009Z",
-            "averageFit": -1,
-            "averageOverall": -1,
-            "averageQuality": -1,
-            "averageShipping": -1,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d67f7f4c39579001e0292e8\"}]",
-            "image": "/images/9.png"
-        },
-        {
-            "_id": "ObjectId(5d68109bc39579001e0292ed)",
-            "store": "",
-            "name": "",
-            "price": 0,
-            "url": "https://stackoverflow.com/questions/23797463/javascript-wrap-around-carousel",
-            "createdAt": "2019-08-29T17:51:23.323Z",
-            "tags": "",
-            "updatedAt": "2019-08-29T17:51:27.438Z",
-            "averageFit": 50,
-            "averageOverall": 50,
-            "averageQuality": 50,
-            "averageShipping": 50,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d68109bc39579001e0292ec\"}]",
-            "image": "/images/10.png"
-        },
-        {
-            "_id": "ObjectId(5d875d614cfe2b001e6f345e)",
-            "store": "",
-            "name": "",
-            "price": 0,
-            "url": "123",
-            "createdAt": "2019-09-22T11:39:13.806Z",
-            "tags": "",
-            "updatedAt": "2019-09-22T11:39:13.806Z",
-            "averageFit": -1,
-            "averageOverall": -1,
-            "averageQuality": -1,
-            "averageShipping": -1,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d875d614cfe2b001e6f345d\"}]",
-            "image": "/images/11.png"
-        },
-        {
             "_id": "ObjectId(5d655ef03d63dfd520ec983a)",
             "store": "Modcloth",
             "name": "Exceptional At All Angles Sheath Dress",
@@ -197,24 +89,6 @@
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d655ef2a28e141574685e7a\"}]",
             "image": "/images/12.png"
-        },
-        {
-            "_id": "ObjectId(5d87a4f7222ffd001e72f105)",
-            "store": "",
-            "name": "",
-            "price": 0,
-            "url": "fgfg",
-            "createdAt": "2019-09-22T16:44:39.893Z",
-            "tags": "",
-            "updatedAt": "2019-10-24T02:29:59.556Z",
-            "averageFit": -1,
-            "averageOverall": -1,
-            "averageQuality": -1,
-            "averageShipping": -1,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[]",
-            "image": "/images/13.png"
         },
         {
             "_id": "ObjectId(5d655eec3d63dfd520ec979e)",
@@ -269,24 +143,6 @@
             "looksGreatCount": 0,
             "reviews": "[{\"$oid\":\"5d655ef7a28e141574685ea0\"}]",
             "image": "/images/16.png"
-        },
-        {
-            "_id": "ObjectId(5d875db84cfe2b001e6f3463)",
-            "store": "",
-            "name": "",
-            "price": 0,
-            "url": "jhj",
-            "createdAt": "2019-09-22T11:40:40.672Z",
-            "tags": "",
-            "updatedAt": "2019-10-24T02:30:04.884Z",
-            "averageFit": -1,
-            "averageOverall": -1,
-            "averageQuality": -1,
-            "averageShipping": -1,
-            "helpfulCount": 0,
-            "looksGreatCount": 0,
-            "reviews": "[]",
-            "image": "/images/17.png"
         },
         {
             "_id": "ObjectId(5d655ef03d63dfd520ec982d)",
@@ -537,7 +393,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655ef7a28e141574685e9f\"}]", 
+            "reviews": "[{\"$oid\":\"5d655ef7a28e141574685e9f\"}]",
             "image": "/images/31.png"
         },
         {
@@ -573,7 +429,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f38\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f38\"}]",
             "image": "/images/33.png"
         },
         {
@@ -591,7 +447,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f04a28e141574685f0b\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f04a28e141574685f0b\"}]",
             "image": "/images/34.png"
         },
         {
@@ -609,7 +465,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f03a28e141574685f0a\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f03a28e141574685f0a\"}]",
             "image": "/images/35.png"
         },
         {
@@ -627,7 +483,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f04a28e141574685f0d\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f04a28e141574685f0d\"}]",
             "image": "/images/36.png"
         },
         {
@@ -645,7 +501,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f39\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f39\"}]",
             "image": "/images/37.png"
         },
         {
@@ -663,7 +519,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655effa28e141574685eeb\"}]", 
+            "reviews": "[{\"$oid\":\"5d655effa28e141574685eeb\"}]",
             "image": "/images/38.png"
         },
         {
@@ -699,7 +555,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655effa28e141574685eec\"}]", 
+            "reviews": "[{\"$oid\":\"5d655effa28e141574685eec\"}]",
             "image": "/images/40.png"
         },
         {
@@ -735,7 +591,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f09a28e141574685f3c\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f09a28e141574685f3c\"}]",
             "image": "/images/42.png"
         },
         {
@@ -753,7 +609,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f0ca28e141574685f61\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f0ca28e141574685f61\"}]",
             "image": "/images/43.png"
         },
         {
@@ -771,7 +627,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f0ca28e141574685f62\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f0ca28e141574685f62\"}]",
             "image": "/images/44.png"
         },
         {
@@ -807,7 +663,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f81\"},{\"$oid\":\"5d655f19a28e141574685feb\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f81\"},{\"$oid\":\"5d655f19a28e141574685feb\"}]",
             "image": "/images/46.png"
         },
         {
@@ -825,7 +681,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f80\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f80\"}]",
             "image": "/images/47.png"
         },
         {
@@ -843,7 +699,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f3a\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f3a\"}]",
             "image": "/images/48.png"
         },
         {
@@ -861,7 +717,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f3b\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f08a28e141574685f3b\"}]",
             "image": "/images/49.png"
         },
         {
@@ -879,7 +735,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f0da28e141574685f64\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f0da28e141574685f64\"}]",
             "image": "/images/50.png"
         },
         {
@@ -915,7 +771,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f15a28e141574685fc0\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f15a28e141574685fc0\"}]",
             "image": "/images/52.png"
         },
         {
@@ -969,7 +825,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f83\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f83\"}]",
             "image": "/images/55.png"
         },
         {
@@ -987,7 +843,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f15a28e141574685fb3\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f15a28e141574685fb3\"}]",
             "image": "/images/56.png"
         },
         {
@@ -1005,7 +861,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f18a28e141574685fde\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f18a28e141574685fde\"}]",
             "image": "/images/57.png"
         },
         {
@@ -1023,7 +879,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f15a28e141574685fc1\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f15a28e141574685fc1\"}]",
             "image": "/images/58.png"
         },
         {
@@ -1041,7 +897,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f13a28e141574685fb2\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f13a28e141574685fb2\"}]",
             "image": "/images/59.png"
         },
         {
@@ -1059,7 +915,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f82\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f10a28e141574685f82\"}]",
             "image": "/images/60.png"
         },
         {
@@ -1077,7 +933,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f19a28e141574685fea\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f19a28e141574685fea\"}]",
             "image": "/images/61.png"
         },
         {
@@ -1095,7 +951,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f1fa28e14157468603b\"},{\"$oid\":\"5d755119a8a8233d145eab4b\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f1fa28e14157468603b\"},{\"$oid\":\"5d755119a8a8233d145eab4b\"}]",
             "image": "/images/62.png"
         },
         {
@@ -1113,7 +969,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f22a28e141574686083\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f22a28e141574686083\"}]",
             "image": "/images/63.png"
         },
         {
@@ -1131,7 +987,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f1da28e141574686037\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f1da28e141574686037\"}]",
             "image": "/images/64.png"
         },
         {
@@ -1149,7 +1005,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f22a28e141574686085\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f22a28e141574686085\"}]",
             "image": "/images/65.png"
         },
         {
@@ -1167,7 +1023,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f1da28e14157468603a\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f1da28e14157468603a\"}]",
             "image": "/images/66.png"
         },
         {
@@ -1185,7 +1041,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f22a28e141574686084\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f22a28e141574686084\"}]",
             "image": "/images/67.png"
         },
         {
@@ -1203,7 +1059,7 @@
             "averageShipping": -1,
             "helpfulCount": 1,
             "looksGreatCount": 1,
-            "reviews": "[{\"$oid\":\"5d655f22a28e141574686082\"},{\"$oid\":\"5d655f23a28e141574686086\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f22a28e141574686082\"},{\"$oid\":\"5d655f23a28e141574686086\"}]",
             "image": "/images/68.png"
         },
         {
@@ -1221,7 +1077,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f1da28e141574686038\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f1da28e141574686038\"}]",
             "image": "/images/69.png"
         },
         {
@@ -1239,7 +1095,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f1aa28e141574686015\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f1aa28e141574686015\"}]",
             "image": "/images/70.png"
         },
         {
@@ -1257,7 +1113,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f1da28e141574686039\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f1da28e141574686039\"}]",
             "image": "/images/71.png"
         },
         {
@@ -1275,7 +1131,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f25a28e141574686091\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f25a28e141574686091\"}]",
             "image": "/images/72.png"
         },
         {
@@ -1293,7 +1149,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f25a28e141574686092\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f25a28e141574686092\"}]",
             "image": "/images/73.png"
         },
         {
@@ -1311,7 +1167,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f25a28e141574686093\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f25a28e141574686093\"}]",
             "image": "/images/74.png"
         },
         {
@@ -1329,7 +1185,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655f25a28e141574686094\"}]", 
+            "reviews": "[{\"$oid\":\"5d655f25a28e141574686094\"}]",
             "image": "/images/75.png"
         },
         {
@@ -1347,7 +1203,7 @@
             "averageShipping": null,
             "helpfulCount": null,
             "looksGreatCount": null,
-            "reviews": "", 
+            "reviews": "",
             "image": "/images/76.png"
         },
         {
@@ -1365,7 +1221,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e61\"}]", 
+            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e61\"}]",
             "image": "/images/77.png"
         },
         {
@@ -1383,7 +1239,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e5e\"}]", 
+            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e5e\"}]",
             "image": "/images/78.png"
         },
         {
@@ -1401,7 +1257,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e60\"}]", 
+            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e60\"}]",
             "image": "/images/79.png"
         },
         {
@@ -1419,7 +1275,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e5f\"}]", 
+            "reviews": "[{\"$oid\":\"5d655eefa28e141574685e5f\"}]",
             "image": "/images/80.png"
         },
         {
@@ -1437,7 +1293,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755121a8a8233d145eab94\"}]", 
+            "reviews": "[{\"$oid\":\"5d755121a8a8233d145eab94\"}]",
             "image": "/images/81.png"
         },
         {
@@ -1455,7 +1311,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75511ea8a8233d145eab70\"}]", 
+            "reviews": "[{\"$oid\":\"5d75511ea8a8233d145eab70\"}]",
             "image": "/images/82.png"
         },
         {
@@ -1473,7 +1329,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d7223fb2e9e39001e3f91a3\"}]", 
+            "reviews": "[{\"$oid\":\"5d7223fb2e9e39001e3f91a3\"}]",
             "image": "/images/83.png"
         },
         {
@@ -1491,7 +1347,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755121a8a8233d145eab93\"}]", 
+            "reviews": "[{\"$oid\":\"5d755121a8a8233d145eab93\"}]",
             "image": "/images/84.png"
         },
         {
@@ -1509,7 +1365,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab68\"}]", 
+            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab68\"}]",
             "image": "/images/85.png"
         },
         {
@@ -1527,7 +1383,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755120a8a8233d145eab92\"}]", 
+            "reviews": "[{\"$oid\":\"5d755120a8a8233d145eab92\"}]",
             "image": "/images/86.png"
         },
         {
@@ -1545,7 +1401,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab69\"}]", 
+            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab69\"}]",
             "image": "/images/87.png"
         },
         {
@@ -1563,7 +1419,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755121a8a8233d145eab95\"}]", 
+            "reviews": "[{\"$oid\":\"5d755121a8a8233d145eab95\"}]",
             "image": "/images/88.png"
         },
         {
@@ -1581,7 +1437,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab6a\"}]", 
+            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab6a\"}]",
             "image": "/images/89.png"
         },
         {
@@ -1599,7 +1455,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab6b\"}]", 
+            "reviews": "[{\"$oid\":\"5d75511ca8a8233d145eab6b\"}]",
             "image": "/images/90.png"
         },
         {
@@ -1617,7 +1473,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755128a8a8233d145eabe6\"}]", 
+            "reviews": "[{\"$oid\":\"5d755128a8a8233d145eabe6\"}]",
             "image": "/images/91.png"
         },
         {
@@ -1635,7 +1491,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755129a8a8233d145eabe7\"}]", 
+            "reviews": "[{\"$oid\":\"5d755129a8a8233d145eabe7\"}]",
             "image": "/images/92.png"
         },
         {
@@ -1653,7 +1509,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755129a8a8233d145eabe8\"}]", 
+            "reviews": "[{\"$oid\":\"5d755129a8a8233d145eabe8\"}]",
             "image": "/images/93.png"
         },
         {
@@ -1671,7 +1527,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75512ca8a8233d145eac1b\"}]", 
+            "reviews": "[{\"$oid\":\"5d75512ca8a8233d145eac1b\"}]",
             "image": "/images/94.png"
         },
         {
@@ -1689,7 +1545,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75512aa8a8233d145eabf5\"}]", 
+            "reviews": "[{\"$oid\":\"5d75512aa8a8233d145eabf5\"}]",
             "image": "/images/95.png"
         },
         {
@@ -1707,7 +1563,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755125a8a8233d145eabc6\"}]", 
+            "reviews": "[{\"$oid\":\"5d755125a8a8233d145eabc6\"}]",
             "image": "/images/96.png"
         },
         {
@@ -1725,7 +1581,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755125a8a8233d145eabc5\"}]", 
+            "reviews": "[{\"$oid\":\"5d755125a8a8233d145eabc5\"}]",
             "image": "/images/97.png"
         },
         {
@@ -1743,7 +1599,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755126a8a8233d145eabc8\"},{\"$oid\":\"5d75514ca8a8233d145eadc3\"}]", 
+            "reviews": "[{\"$oid\":\"5d755126a8a8233d145eabc8\"},{\"$oid\":\"5d75514ca8a8233d145eadc3\"}]",
             "image": "/images/98.png"
         },
         {
@@ -1761,7 +1617,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755122a8a8233d145eabad\"}]", 
+            "reviews": "[{\"$oid\":\"5d755122a8a8233d145eabad\"}]",
             "image": "/images/99.png"
         },
         {
@@ -1797,7 +1653,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75512aa8a8233d145eabf6\"}]", 
+            "reviews": "[{\"$oid\":\"5d75512aa8a8233d145eabf6\"}]",
             "image": "/images/101.png"
         },
         {
@@ -1815,7 +1671,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75512ea8a8233d145eac1e\"}]", 
+            "reviews": "[{\"$oid\":\"5d75512ea8a8233d145eac1e\"}]",
             "image": "/images/102.png"
         },
         {
@@ -1833,7 +1689,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75512da8a8233d145eac1c\"},{\"$oid\":\"5d75512ea8a8233d145eac26\"}]", 
+            "reviews": "[{\"$oid\":\"5d75512da8a8233d145eac1c\"},{\"$oid\":\"5d75512ea8a8233d145eac26\"}]",
             "image": "/images/103.png"
         },
         {
@@ -1851,7 +1707,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75512da8a8233d145eac1d\"}]", 
+            "reviews": "[{\"$oid\":\"5d75512da8a8233d145eac1d\"}]",
             "image": "/images/104.png"
         },
         {
@@ -1869,7 +1725,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755133a8a8233d145eac71\"}]", 
+            "reviews": "[{\"$oid\":\"5d755133a8a8233d145eac71\"}]",
             "image": "/images/105.png"
         },
         {
@@ -1887,7 +1743,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755133a8a8233d145eac73\"}]", 
+            "reviews": "[{\"$oid\":\"5d755133a8a8233d145eac73\"}]",
             "image": "/images/106.png"
         },
         {
@@ -1905,7 +1761,7 @@
             "averageShipping": null,
             "helpfulCount": null,
             "looksGreatCount": null,
-            "reviews": "", 
+            "reviews": "",
             "image": "/images/107.png"
         },
         {
@@ -1923,7 +1779,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755131a8a8233d145eac6b\"}]", 
+            "reviews": "[{\"$oid\":\"5d755131a8a8233d145eac6b\"}]",
             "image": "/images/108.png"
         },
         {
@@ -1941,7 +1797,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755130a8a8233d145eac56\"}]", 
+            "reviews": "[{\"$oid\":\"5d755130a8a8233d145eac56\"}]",
             "image": "/images/109.png"
         },
         {
@@ -1959,7 +1815,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755134a8a8233d145eac80\"}]", 
+            "reviews": "[{\"$oid\":\"5d755134a8a8233d145eac80\"}]",
             "image": "/images/110.png"
         },
         {
@@ -1977,7 +1833,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755137a8a8233d145eacb1\"}]", 
+            "reviews": "[{\"$oid\":\"5d755137a8a8233d145eacb1\"}]",
             "image": "/images/111.png"
         },
         {
@@ -1995,7 +1851,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755137a8a8233d145eacb2\"}]", 
+            "reviews": "[{\"$oid\":\"5d755137a8a8233d145eacb2\"}]",
             "image": "/images/112.png"
         },
         {
@@ -2013,7 +1869,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755133a8a8233d145eac72\"}]", 
+            "reviews": "[{\"$oid\":\"5d755133a8a8233d145eac72\"}]",
             "image": "/images/113.png"
         },
         {
@@ -2031,7 +1887,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75513ca8a8233d145ead0c\"}]", 
+            "reviews": "[{\"$oid\":\"5d75513ca8a8233d145ead0c\"}]",
             "image": "/images/114.png"
         },
         {
@@ -2049,7 +1905,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75513aa8a8233d145eace4\"}]", 
+            "reviews": "[{\"$oid\":\"5d75513aa8a8233d145eace4\"}]",
             "image": "/images/115.png"
         },
         {
@@ -2067,7 +1923,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75513ba8a8233d145eace5\"}]", 
+            "reviews": "[{\"$oid\":\"5d75513ba8a8233d145eace5\"}]",
             "image": "/images/116.png"
         },
         {
@@ -2085,7 +1941,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755136a8a8233d145eaca4\"}]", 
+            "reviews": "[{\"$oid\":\"5d755136a8a8233d145eaca4\"}]",
             "image": "/images/117.png"
         },
         {
@@ -2103,7 +1959,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755139a8a8233d145eacc4\"}]", 
+            "reviews": "[{\"$oid\":\"5d755139a8a8233d145eacc4\"}]",
             "image": "/images/118.png"
         },
         {
@@ -2121,7 +1977,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755137a8a8233d145eacb3\"}]", 
+            "reviews": "[{\"$oid\":\"5d755137a8a8233d145eacb3\"}]",
             "image": "/images/119.png"
         },
         {
@@ -2139,7 +1995,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75513ca8a8233d145ead0b\"}]", 
+            "reviews": "[{\"$oid\":\"5d75513ca8a8233d145ead0b\"}]",
             "image": "/images/120.png"
         },
         {
@@ -2157,7 +2013,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755140a8a8233d145ead3c\"}]", 
+            "reviews": "[{\"$oid\":\"5d755140a8a8233d145ead3c\"}]",
             "image": "/images/121.png"
         },
         {
@@ -2175,7 +2031,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755141a8a8233d145ead53\"}]", 
+            "reviews": "[{\"$oid\":\"5d755141a8a8233d145ead53\"}]",
             "image": "/images/122.png"
         },
         {
@@ -2193,7 +2049,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75513fa8a8233d145ead3b\"}]", 
+            "reviews": "[{\"$oid\":\"5d75513fa8a8233d145ead3b\"}]",
             "image": "/images/123.png"
         },
         {
@@ -2211,7 +2067,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75513ea8a8233d145ead3a\"}]", 
+            "reviews": "[{\"$oid\":\"5d75513ea8a8233d145ead3a\"}]",
             "image": "/images/124.png"
         },
         {
@@ -2229,7 +2085,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755146a8a8233d145ead89\"}]", 
+            "reviews": "[{\"$oid\":\"5d755146a8a8233d145ead89\"}]",
             "image": "/images/125.png"
         },
         {
@@ -2247,7 +2103,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755144a8a8233d145ead7c\"}]", 
+            "reviews": "[{\"$oid\":\"5d755144a8a8233d145ead7c\"}]",
             "image": "/images/126.png"
         },
         {
@@ -2265,7 +2121,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755141a8a8233d145ead52\"}]", 
+            "reviews": "[{\"$oid\":\"5d755141a8a8233d145ead52\"}]",
             "image": "/images/127.png"
         },
         {
@@ -2283,7 +2139,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755144a8a8233d145ead7d\"}]", 
+            "reviews": "[{\"$oid\":\"5d755144a8a8233d145ead7d\"}]",
             "image": "/images/128.png"
         },
         {
@@ -2301,7 +2157,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755143a8a8233d145ead6c\"}]", 
+            "reviews": "[{\"$oid\":\"5d755143a8a8233d145ead6c\"}]",
             "image": "/images/129.png"
         },
         {
@@ -2319,7 +2175,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755145a8a8233d145ead7e\"}]", 
+            "reviews": "[{\"$oid\":\"5d755145a8a8233d145ead7e\"}]",
             "image": "/images/130.png"
         },
         {
@@ -2337,7 +2193,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75514ba8a8233d145eadc2\"}]", 
+            "reviews": "[{\"$oid\":\"5d75514ba8a8233d145eadc2\"}]",
             "image": "/images/131.png"
         },
         {
@@ -2355,7 +2211,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755147a8a8233d145ead96\"},{\"$oid\":\"5d755149a8a8233d145eadb0\"}]", 
+            "reviews": "[{\"$oid\":\"5d755147a8a8233d145ead96\"},{\"$oid\":\"5d755149a8a8233d145eadb0\"}]",
             "image": "/images/132.png"
         },
         {
@@ -2373,7 +2229,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/133.png"
         },
         {
@@ -2391,7 +2247,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d75514aa8a8233d145eadba\"}]", 
+            "reviews": "[{\"$oid\":\"5d75514aa8a8233d145eadba\"}]",
             "image": "/images/134.png"
         },
         {
@@ -2409,7 +2265,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/135.png"
         },
         {
@@ -2427,7 +2283,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d8754394cfe2b001e6f3455\"}]", 
+            "reviews": "[{\"$oid\":\"5d8754394cfe2b001e6f3455\"}]",
             "image": "/images/136.png"
         },
         {
@@ -2445,7 +2301,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d866c45348b865ac0d35636\"},{\"$oid\":\"5d866cab348b865ac0d35639\"},{\"$oid\":\"5d866d49348b865ac0d3563b\"}]", 
+            "reviews": "[{\"$oid\":\"5d866c45348b865ac0d35636\"},{\"$oid\":\"5d866cab348b865ac0d35639\"},{\"$oid\":\"5d866d49348b865ac0d3563b\"}]",
             "image": "/images/137.png"
         },
         {
@@ -2463,7 +2319,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d755148a8a8233d145eadab\"}]", 
+            "reviews": "[{\"$oid\":\"5d755148a8a8233d145eadab\"}]",
             "image": "/images/138.png"
         },
         {
@@ -2481,7 +2337,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d8753c34cfe2b001e6f3452\"}]", 
+            "reviews": "[{\"$oid\":\"5d8753c34cfe2b001e6f3452\"}]",
             "image": "/images/139.png"
         },
         {
@@ -2499,7 +2355,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d7ea9b9856d91001e423269\"}]", 
+            "reviews": "[{\"$oid\":\"5d7ea9b9856d91001e423269\"}]",
             "image": "/images/140.png"
         },
         {
@@ -2517,7 +2373,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d909fdff76e14001e786c88\"},{\"$oid\":\"5d90a11ff76e14001e786c8f\"},{\"$oid\":\"5d90a14af76e14001e786c91\"},{\"$oid\":\"5d90a186f76e14001e786c93\"}]", 
+            "reviews": "[{\"$oid\":\"5d909fdff76e14001e786c88\"},{\"$oid\":\"5d90a11ff76e14001e786c8f\"},{\"$oid\":\"5d90a14af76e14001e786c91\"},{\"$oid\":\"5d90a186f76e14001e786c93\"}]",
             "image": "/images/141.png"
         },
         {
@@ -2535,7 +2391,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/142.png"
         },
         {
@@ -2553,7 +2409,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/143.png"
         },
         {
@@ -2571,7 +2427,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d8f97dfea256f001ebdbd25\"}]", 
+            "reviews": "[{\"$oid\":\"5d8f97dfea256f001ebdbd25\"}]",
             "image": "/images/144.png"
         },
         {
@@ -2589,7 +2445,7 @@
             "averageShipping": 72,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d877def0119135ff00b936d\"},{\"$oid\":\"5d877ea90119135ff00b9370\"},{\"$oid\":\"5d877f570119135ff00b9372\"}]", 
+            "reviews": "[{\"$oid\":\"5d877def0119135ff00b936d\"},{\"$oid\":\"5d877ea90119135ff00b9370\"},{\"$oid\":\"5d877f570119135ff00b9372\"}]",
             "image": "/images/145.png"
         },
         {
@@ -2607,7 +2463,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/146.png"
         },
         {
@@ -2625,7 +2481,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/147.png"
         },
         {
@@ -2643,7 +2499,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d8f98d0ea256f001ebdbd28\"}]", 
+            "reviews": "[{\"$oid\":\"5d8f98d0ea256f001ebdbd28\"}]",
             "image": "/images/148.png"
         },
         {
@@ -2661,7 +2517,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/149.png"
         },
         {
@@ -2679,7 +2535,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d8924c91dc9e8001ed8c5a0\"}]", 
+            "reviews": "[{\"$oid\":\"5d8924c91dc9e8001ed8c5a0\"}]",
             "image": "/images/150.png"
         },
         {
@@ -2697,7 +2553,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d9360ce31a593001eb0c95a\"}]", 
+            "reviews": "[{\"$oid\":\"5d9360ce31a593001eb0c95a\"}]",
             "image": "/images/151.png"
         },
         {
@@ -2715,7 +2571,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[]", 
+            "reviews": "[]",
             "image": "/images/152.png"
         },
         {
@@ -2733,7 +2589,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d9b164817ef05001e4a38a1\"}]", 
+            "reviews": "[{\"$oid\":\"5d9b164817ef05001e4a38a1\"}]",
             "image": "/images/153.png"
         },
         {
@@ -2751,7 +2607,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d9e1e2274f0c2001e5694e9\"}]", 
+            "reviews": "[{\"$oid\":\"5d9e1e2274f0c2001e5694e9\"}]",
             "image": "/images/154.png"
         },
         {
@@ -2769,7 +2625,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5da25b8e428473001e32380f\"}]", 
+            "reviews": "[{\"$oid\":\"5da25b8e428473001e32380f\"}]",
             "image": "/images/155.png"
         },
         {
@@ -2787,7 +2643,7 @@
             "averageShipping": 71,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d9b727217ef05001e4a38a4\"}]", 
+            "reviews": "[{\"$oid\":\"5d9b727217ef05001e4a38a4\"}]",
             "image": "/images/156.png"
         },
         {
@@ -2805,7 +2661,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d90a0a2f76e14001e786c8c\"}]", 
+            "reviews": "[{\"$oid\":\"5d90a0a2f76e14001e786c8c\"}]",
             "image": "/images/157.png"
         },
         {
@@ -2823,7 +2679,7 @@
             "averageShipping": 61,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d95dbecbd4656001e2ebabe\"}]", 
+            "reviews": "[{\"$oid\":\"5d95dbecbd4656001e2ebabe\"}]",
             "image": "/images/158.png"
         },
         {
@@ -2841,7 +2697,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d9cb1ccc33654001eef6855\"}]", 
+            "reviews": "[{\"$oid\":\"5d9cb1ccc33654001eef6855\"}]",
             "image": "/images/159.png"
         },
         {
@@ -2859,7 +2715,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5d9b15f717ef05001e4a389e\"}]", 
+            "reviews": "[{\"$oid\":\"5d9b15f717ef05001e4a389e\"}]",
             "image": "/images/160.png"
         },
         {
@@ -2877,7 +2733,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5dc64f0d4dbbb9001e2e71a6\"}]", 
+            "reviews": "[{\"$oid\":\"5dc64f0d4dbbb9001e2e71a6\"}]",
             "image": "/images/161.png"
         },
         {
@@ -2895,7 +2751,7 @@
             "averageShipping": 100,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5db02c33b6d87f001e0603ba\"}]", 
+            "reviews": "[{\"$oid\":\"5db02c33b6d87f001e0603ba\"}]",
             "image": "/images/162.png"
         },
         {
@@ -2913,7 +2769,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5dc7116b4dbbb9001e2e71af\"}]", 
+            "reviews": "[{\"$oid\":\"5dc7116b4dbbb9001e2e71af\"}]",
             "image": "/images/163.png"
         },
         {
@@ -2931,7 +2787,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5dc65ec94dbbb9001e2e71a9\"}]", 
+            "reviews": "[{\"$oid\":\"5dc65ec94dbbb9001e2e71a9\"}]",
             "image": "/images/164.png"
         },
         {
@@ -2949,7 +2805,7 @@
             "averageShipping": 60,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5e6ba4109328fd004ce742e2\"}]", 
+            "reviews": "[{\"$oid\":\"5e6ba4109328fd004ce742e2\"}]",
             "image": "/images/165.png"
         },
         {
@@ -2967,7 +2823,7 @@
             "averageShipping": 50,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5dc677fb4dbbb9001e2e71ac\"}]", 
+            "reviews": "[{\"$oid\":\"5dc677fb4dbbb9001e2e71ac\"}]",
             "image": "/images/166.png"
         },
         {
@@ -2985,7 +2841,7 @@
             "averageShipping": 60,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5ed5384ce3603e0046f839d5\"}]", 
+            "reviews": "[{\"$oid\":\"5ed5384ce3603e0046f839d5\"}]",
             "image": "/images/167.png"
         },
         {
@@ -3003,7 +2859,7 @@
             "averageShipping": 100,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5ed54d0ee3603e0046f839d8\"},{\"$oid\":\"5ed5516be3603e0046f839db\"}]", 
+            "reviews": "[{\"$oid\":\"5ed54d0ee3603e0046f839d8\"},{\"$oid\":\"5ed5516be3603e0046f839db\"}]",
             "image": "/images/168.png"
         },
         {
@@ -3021,7 +2877,7 @@
             "averageShipping": 60,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "[{\"$oid\":\"5eddf808cf0573003be85c7c\"}]", 
+            "reviews": "[{\"$oid\":\"5eddf808cf0573003be85c7c\"}]",
             "image": "/images/169.png"
         },
         {
@@ -3039,7 +2895,7 @@
             "averageShipping": -1,
             "helpfulCount": 0,
             "looksGreatCount": 0,
-            "reviews": "", 
+            "reviews": "",
             "image": "/images/170.png"
         }
     ]
