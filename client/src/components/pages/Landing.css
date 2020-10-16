@@ -11,7 +11,47 @@
     background-position: center;
 }
 
+.section-statement {
+    width: 400px;
+    height: 300px;
+    border: 1px dashed orange;
+    color: white;
+}
+
 .section-about {
     height: 100vh;
 
 }
+
+
+
+
+/*--------Footer--------- */
+
+
+.page-footer {
+    display: flex;
+    border-top: 1px dashed lightgray;
+    margin: 0px 20px 0px 20px;
+  }
+  
+  .page-footer > ul {
+    list-style-type: none;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .page-footer > ul > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .page-footer > h3 {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+  }

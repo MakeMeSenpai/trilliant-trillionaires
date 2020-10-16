@@ -172,17 +172,19 @@ a:active {
 
 
 .page {
+  /* margin: 50px 50px; */
+  
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 .form {
-  max-width: 100%;
+  margin: 50px 50px;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+
   border: 1px dashed #F19732;
   background-color: #eae0d07d;
   padding: 30px;
@@ -347,8 +349,6 @@ div .product{
 
 
 }
-
-
 
 /* Filter */
 
