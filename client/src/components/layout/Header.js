@@ -23,7 +23,7 @@ export default function Header() {
                     )}
             </div>
             <div className="title-container">
-                <Link to="/" className='title-link'>
+                <Link to="/catelog" className='title-link'>
                     <h1 className="title"> Trilliant</h1>
                 </Link>
                 <div>
