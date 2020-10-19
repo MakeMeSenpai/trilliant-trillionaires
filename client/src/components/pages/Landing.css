@@ -13,13 +13,18 @@
 }
 
 .section-statement {
-    width: 400px;
-    height: auto;
+    width: 540px;
+    height: 538px;
     padding: 20px;
     border: 1px dashed orange;
     background-color: #eae0d07d;
     color: white;
 }
+
+.button-statement > :nth-child(1) {
+    padding: 10px 100px 10px 100px;
+}
+
 .section-statement > h1{
     color: #F19732;
     text-align: center;
@@ -52,23 +57,29 @@
 
 .page-footer {
     display: flex;
-    border-top: 1px dashed lightgray;
+    border-top: 2px dashed #F19732;
+    justify-content: space-evenly;
     margin: 0px 20px 0px 20px;
   }
-  
+
   .page-footer > ul {
     list-style-type: none;
-    font-size: 10pt;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px;
+    justify-content: space-evenly;
   }
   
   .page-footer > ul > li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .ig-icon {
+    color: #C13584;
+  }
+
+  .ig-icon:hover {
+      color: #772b56;
   }
   
   .page-footer > h3 {

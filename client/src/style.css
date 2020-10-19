@@ -100,9 +100,7 @@ body {
   display: flex;
   align-items: baseline;
 }
-#header .auth-options button {
 
-}
 
 
 #header .auth-options button:focus {
@@ -172,15 +170,12 @@ a:active {
 
 
 .page {
-  /* margin: 50px 50px; */
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .form {
-  margin: 50px 50px;
   max-width: 800px;
   display: flex;
   flex-direction: column;
