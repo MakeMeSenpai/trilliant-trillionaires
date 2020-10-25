@@ -21,23 +21,21 @@
     color: white;
 }
 
-.button-statement > :nth-child(1) {
-    padding: 10px 100px 10px 100px;
-}
 
 .section-statement > h1{
     color: #F19732;
     text-align: center;
     letter-spacing: 2px;
+    font-size: 42pt;
 }
 .section-statement > h2{
     color: #000;
-    font-size: 20pt;
+    font-size: 22pt;
     text-align: center;
 }
 .section-statement > p{
     color: #000;
-    font-size: 12pt;
+    font-size: 14pt;
     text-align: left;
 }
 .section-about {

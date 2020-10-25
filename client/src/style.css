@@ -189,21 +189,25 @@ a:active {
   flex-direction: column;
   align-items: stretch;
   margin-left: 10px;
+  font-size: 14pt;
+  font-weight: bold;
 }
 
-.form label span {
+/* .form label span {
   color: #080708;
   margin-left: 10px;
   font-size: 14pt;
   font-weight: bold;
   letter-spacing: 2px;
-}
+} */
+
+
 
 .form input[type=text],
 .form input[type=email],
 .form input[type=password],
 textarea {
-  /* border: 0.5px solid #008fc1; */
+  background-color: transparent;
   border-top-style: hidden;
   border-left-style: hidden;
   border-right-style: hidden;
@@ -217,35 +221,35 @@ textarea {
 .form input[type=email]:focus, 
 .form input[type=password]:focus, 
 textarea:focus {
-  border: 2px solid tomato;
+  border: 2px solid #F19732;
   border-top-style: hidden;
   border-left-style: hidden;
   border-right-style: hidden;
 }
 
 ::placeholder {
-  color: #333;
-  font-size: 12pt;
-  opacity: 0.5;
+  opacity: 0.6;
+  color: #000;
+  font-size: 14pt;
   text-align: center;
 }
 .form input[type=submit]{
   color: white;
-  background-color: #008fc1;
+  background-color: #007bff;
   max-width: 50%;
   border-radius: 20px;
   border: none;
   margin: 10px 0;
-  padding: 1em 1.5em;
+  padding: .5em 1em;
   align-self: flex-end;
   transition: 800ms;
 }
 
 .form input[type=submit]:hover{
   align-self: flex-end;
-  color: #008fc1;
+  color: #007bff;
   background-color: transparent;
-  border: 1px solid rgb(27, 183, 160);
+  border: 1px solid #007bff;
 }
 
 

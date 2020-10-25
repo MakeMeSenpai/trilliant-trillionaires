@@ -11,23 +11,20 @@ export class Landing extends Component {
         return (
             <div className="landing-main">
                 <div className="section-header">
-                    <Container fluid='xl'>
+                    <Container>
                         <Row>
                             <Col style={{margin: "100px 0px 0px 0px"}}>
                                 <div className="section-statement">
                                     <h1>Trilliant</h1>
                                     <h2>Know what you're getting when you shop online.</h2>
-                                    <p>Trilliant lets you view and upload product reviews while you browse online stores. See pictures from other shoppers so that you never have to be disappointed when your order arrives.</p>
-                                    <Col className="button-statement">
-                                    <Button variant="outline-secondary" className='button-statement' href="/catelog">Catelog</Button>
-                                        <Col className="button-statement">
-                                        <Button variant="outline-primary" href="https://chrome.google.com/webstore/detail/trilliant-product-reviews/kmlccnfningikbpkanojlhoafkogcple">Chrome Extension</Button>
-                                        
-                                        </Col>
-                                    </Col>
+                                    <p>Trilliant lets you view and upload product reviews while you browse online stores. See pictures from other shoppers so that you never have to be disappointed when your order arrives.</p>      
+                                    <Button variant="secondary" size="lg" href="/catelog" block>Catelog</Button>
+                                    <Button variant="primary" size="lg" href="https://chrome.google.com/webstore/detail/trilliant-product-reviews/kmlccnfningikbpkanojlhoafkogcple" block>Chrome Extension</Button>                                              
                                 </div>
                             </Col>
-                            <Col style={{margin: "100px 0px 0px 0px"}}><Register/></Col>
+                            <Col style={{margin: "100px 0px 0px 0px"}}>
+                                <Register/>
+                            </Col>
                         </Row>
                     </Container>
                     

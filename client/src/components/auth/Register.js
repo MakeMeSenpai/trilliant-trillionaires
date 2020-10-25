@@ -49,6 +49,7 @@ export default function Register() {
                 <input
                     id="register-email"
                     type="email"
+                    placeholder="Enter Email Address"
                     onChange={(e) => setEmail(e.target.value)}
                 />
 
@@ -56,6 +57,7 @@ export default function Register() {
                 <input
                     id="register-password"
                     type="password"
+                    placeholder="Enter Password"
                     onChange={(e) => setPassword(e.target.value)}
                 />
                 <input
@@ -64,10 +66,11 @@ export default function Register() {
                     onChange={(e) => setPasswordCheck(e.target.value)}
                 />
 
-                <label htmlFor="register-display-name">Display name</label>
+                <label htmlFor="register-display-name">Display Name</label>
                 <input
                     id="register-display-name"
                     type="text"
+                    placeholder="Enter Username"
                     onChange={(e) => setDisplayName(e.target.value)}
                 />
 
