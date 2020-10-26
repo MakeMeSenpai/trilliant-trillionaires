@@ -12,13 +12,11 @@ export default function Header() {
     return (
         <header id="header">
             <div className="page">
-
-
                 {userData.user ? (
                     <h3>Welcome {userData.user.displayName}</h3>
                 ) : (
                         <>
-                
+
                         </>
                     )}
             </div>
@@ -29,7 +27,7 @@ export default function Header() {
                 <div>
                     <AuthOptions />
                 </div>
-                
+
             </div>
         </header>
     )

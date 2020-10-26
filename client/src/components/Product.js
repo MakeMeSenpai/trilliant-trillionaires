@@ -10,13 +10,11 @@ function searchingFor(term) {
 }
 
 export default class Products extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
             product: product,
             term: "",
-
         }
         this.searchHandler = this.searchHandler.bind(this);
     }
@@ -24,17 +22,12 @@ export default class Products extends Component {
 
     searchHandler(event) {
         this.setState({ term: event.target.value })
-
     }
 
     render() {
         const { term, product } = this.state;
         return (
-
             <div>
-
-
-
                 <ul className='second-nav-container'>
                     <li><a href="">Men</a></li>
                     <li><a href="">Women</a></li>
@@ -49,23 +42,10 @@ export default class Products extends Component {
                         />
                     </form>
                     </li>
-
                 </ul>
 
 
-
-
-
-
                 <ul className="products">
-
-
-                    {/* <picture>
-                        <source srcSet={product.url} />
-                        <img src={product.url} alt={product.alt} />
-                    </picture> */}
-
-
                     {this.props.products.filter(searchingFor(term)).map((product) => (
                         < li key={product._id} >
                             <div className="product">
@@ -83,13 +63,8 @@ export default class Products extends Component {
                         </li>
                     ))}
 
-
                 </ul>
             </div>
-
-
-
-
         );
     }
 }

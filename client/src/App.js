@@ -10,8 +10,6 @@ import Home2 from './components/pages/Home2'
 import Cardhome from './components/Cardhome'
 import Landing from './components/pages/Landing'
 
-
-
 export default function App() {
     // stores token and user and it's undefined when app starts
     const [userData, setUserData] = useState({
@@ -48,7 +46,6 @@ export default function App() {
                 });
             }
         };
-
         checkLoggedIn();
     }, []);
 
@@ -60,9 +57,6 @@ export default function App() {
                 {/* creates states than shared with other components */}
                 <UserContext.Provider value={{ userData, setUserData }}>
                     <Header />
-
-
-
                     <Switch>
                         <Route exact path="/" component={Landing} /> 
                         <Route exact path="/catelog" component={Home2} />

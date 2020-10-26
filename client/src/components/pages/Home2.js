@@ -6,7 +6,6 @@ import Filter from "../Filter"
 import Cardhome from "../Cardhome.js";
 
 
-
 class App extends React.Component {
     constructor() {
         super();
@@ -59,47 +58,21 @@ class App extends React.Component {
     filterBodytype = (event) => {
         // impl
         let averageFit = event.target.value;
-       
+
         console.log(event.target.value);
         if (averageFit == "0") {
             this.setState({ bodytype: event.target.value, products: data.products }, () => {
                 console.log('All Products Show', this.state.products)
             });
-            // console.log("Producst", this.state.products);
         } else {
             this.setState({
                 bodytype: event.target.value,
                 products: data.products.filter((product) => product.averageFit == averageFit),
-            }, ()=> {
+            }, () => {
                 console.log("PRODUCTS", this.state.products);
             });
         }
     };
-
-
-    // "averageFit": 60`,
-    // "averageOverall": 60,
-    // "averageQuality": 60,
-    // "averageShipping": -1,
-
-
-
-
-
-    // filterGender = (event) => {
-    //     // impl
-    //     console.log(event.target.value);
-    //     if (event.target.value === "") {
-    //         this.setState({ gender: event.target.value, products: data.products });
-    //     } else {
-    //         this.setState({
-    //             gender: event.target.value,
-    //             products: data.products.filter(
-    //                 (product) => product.gender.indexOf(event.target.value) >= 0
-    //             ),
-    //         });
-    //     }
-    // };
 
     render() {
 
@@ -108,7 +81,6 @@ class App extends React.Component {
             <div className="main">
                 <Cardhome />
                 <Filter
-
                     count={this.state.products.length}
                     size={this.state.size}
                     sort={this.state.sort}

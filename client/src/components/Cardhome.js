@@ -14,16 +14,12 @@ export default function Cardhome() {
             <Carousel.Item>
 
                 <img className="carousel-image" src={require("./carouselimages/fashion2.jpg")}
-       
+
 
 
                 />
-
-
             </Carousel.Item>
-
             <Carousel.Item>
-
                 <img className="carousel-image" src={require("./carouselimages/fashion3.png")}
 
                 />
