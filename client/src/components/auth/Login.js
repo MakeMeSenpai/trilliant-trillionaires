@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react"
 import { useAuth } from './contexts/AuthContext'
 import { Link, useHistory } from "react-router-dom"
+import { Button, Alert } from 'react-bootstrap'
 
 export default function Login() {
 
@@ -30,9 +31,9 @@ export default function Login() {
 
         <div className="page">
             <h2>Log in</h2>
-
             <form onSubmit={handleSubmit} className="form" >
-                {error}
+               
+
                 <label htmlFor="login-email">Email</label>
                 <input
                     id="login-email"
@@ -51,8 +52,9 @@ export default function Login() {
                     required
 
                 />
-
-                <button disabled={loading} type="submit" value="Log in">Login</button>
+                
+                <Alert variant="danger" fade={false}>{error}</Alert>
+                <Button variant="primary" size="lg" disabled={loading} type="submit" value="Log in" block>Login</Button>
 
                 <div className="w-100 text-center mt-2">
                     Need an account? <Link to="/signup">Sign Up</Link>

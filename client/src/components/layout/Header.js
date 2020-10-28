@@ -2,7 +2,7 @@
 import React, { useState } from "react"
 import { useAuth } from '../auth/contexts/AuthContext'
 import { Link, useHistory } from "react-router-dom"
-
+import { Button } from 'react-bootstrap'
 
 
 
@@ -27,15 +27,13 @@ export default function Header() {
 
     return (
         <header id="header">
-            <div className="page">
-
-            </div>
             <div className="title-container">
                 <Link to="/catelog" className='title-link'>
                     <h1 className="title"> Trilliant</h1>
                 </Link>
                 <div>
-                    <button onClick={handleLogout}>Logout </button>
+                    <Button variant="primary" onClick={handleLogout}>Logout</Button>
+                    {/* <button onClick={handleLogout}> </button> */}
                 </div>
 
             </div>
