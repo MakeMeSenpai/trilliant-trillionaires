@@ -1,58 +1,65 @@
-import React, { useState, useContext } from "react";
-import { useHistory } from "react-router-dom";
-import UserContext from "../../context/UserContext";
-import Axios from "axios";
-import ErrorNotice from "../misc/ErrorNotice";
+import React, { useRef, useState } from "react"
+import { useAuth } from './contexts/AuthContext'
+import { Link, useHistory } from "react-router-dom"
 
 export default function Login() {
-    const [email, setEmail] = useState();
-    const [password, setPassword] = useState();
-    const [error, setError] = useState();
 
-    const { setUserData } = useContext(UserContext);
-    const history = useHistory();
 
-    const submit = async (e) => {
-        e.preventDefault();
+    const emailRef = useRef()
+    const passwordRef = useRef()
+    const { login } = useAuth()
+    const [error, setError] = useState("")
+    const [loading, setLoading] = useState(false)
+    const history = useHistory()
+
+    async function handleSubmit(e) {
+        e.preventDefault()
+
         try {
-            const loginUser = { email, password };
-            const loginRes = await Axios.post(
-                "http://localhost:5000/users/login",
-                loginUser
-            );
-            setUserData({
-                token: loginRes.data.token,
-                user: loginRes.data.user,
-            });
-            localStorage.setItem("auth-token", loginRes.data.token);
-            history.push("/");
-        } catch (err) {
-            err.response.data.msg && setError(err.response.data.msg);
+            setError("")
+            setLoading(true)
+            await login(emailRef.current.value, passwordRef.current.value)
+            history.push("/catelog")
+        } catch {
+            setError("Failed to log in")
         }
-    };
+
+        setLoading(false)
+    }
     return (
+
         <div className="page">
             <h2>Log in</h2>
-            {error && (
-                <ErrorNotice message={error} clearError={() => setError(undefined)} />
-            )}
-            <form className="form" onSubmit={submit}>
+
+            <form onSubmit={handleSubmit} className="form" >
+                {error}
                 <label htmlFor="login-email">Email</label>
                 <input
                     id="login-email"
                     type="email"
-                    onChange={(e) => setEmail(e.target.value)}
+                    ref={emailRef}
+                    required
+
                 />
 
                 <label htmlFor="login-password">Password</label>
                 <input
                     id="login-password"
                     type="password"
-                    onChange={(e) => setPassword(e.target.value)}
+                    type="password"
+                    ref={passwordRef}
+                    required
+
                 />
 
-                <input type="submit" value="Log in" />
+                <button disabled={loading} type="submit" value="Log in">Login</button>
+
+                <div className="w-100 text-center mt-2">
+                    Need an account? <Link to="/signup">Sign Up</Link>
+                </div>
             </form>
         </div>
     );
+
+
 }
