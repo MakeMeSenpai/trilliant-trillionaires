@@ -1,4 +1,3 @@
-
 import React, { useState } from "react"
 import { useAuth } from '../auth/contexts/AuthContext'
 import { Link, useHistory } from "react-router-dom"
@@ -31,10 +30,11 @@ export default function Header() {
                 <Link to="/catelog" className='title-link'>
                     <h1 className="title"> Trilliant</h1>
                 </Link>
-                <div>
-                    <Button variant="primary" onClick={handleLogout}>Logout</Button>
-                    {/* <button onClick={handleLogout}> </button> */}
-                </div>
+
+                {currentUser && (
+                    <Button variant="primary" onClick={handleLogout}>Logout</Button>)
+
+                }
 
             </div>
         </header>

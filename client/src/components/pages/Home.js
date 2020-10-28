@@ -3,7 +3,8 @@ import React from "react";
 import data from "../../trilliant.json";
 import Products from "../Product";
 import Filter from "../Filter"
-import Cardhome from "../Cardhome.js";
+import Carouselitem from "../carousel/Carouselitem.js";
+import { Carousel } from "react-bootstrap";
 
 
 class App extends React.Component {
@@ -79,7 +80,7 @@ class App extends React.Component {
         return (
 
             <div className="main">
-                <Cardhome />
+                <Carouselitem />
                 <Filter
                     count={this.state.products.length}
                     size={this.state.size}
