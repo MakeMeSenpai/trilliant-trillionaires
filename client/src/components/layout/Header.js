@@ -3,7 +3,7 @@ import { useAuth } from '../auth/contexts/AuthContext'
 import { Link, useHistory } from "react-router-dom"
 import { Button } from 'react-bootstrap'
 
-
+import './Header.css'
 
 // navbar 
 export default function Header() {
@@ -26,15 +26,23 @@ export default function Header() {
 
     return (
         <header id="header">
+
             <div className="title-container">
                 <Link to="/catelog" className='title-link'>
                     <h1 className="title"> Trilliant</h1>
                 </Link>
+                {!currentUser && (
+                    <Link to="/login" className="form-link">
+                        Login
+                    </Link>
+                )
+                }
 
                 {currentUser && (
-                    <Button variant="primary" onClick={handleLogout}>Logout</Button>)
-
+                    <Link variant="primary" className="form-link" onClick={handleLogout}>Logout</Link>
+                )
                 }
+
 
             </div>
         </header>

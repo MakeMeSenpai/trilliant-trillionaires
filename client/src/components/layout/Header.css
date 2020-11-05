@@ -1,0 +1,55 @@
+
+/* header */
+
+/* #header {
+
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #eae0d07d;
+  justify-content: space-between;
+  align-items: baseline;
+} */
+
+.title-container {
+    padding-top: 8px;
+    padding-left: 15px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #eae0d07d;
+    justify-content: space-between;
+    align-items: baseline;
+    
+  }
+  .title {
+    letter-spacing: 1px;
+    font-size: 18pt;
+    color: #F19732;
+    transition: 2000ms;
+    outline: none;
+  }
+
+  .title-link:hover {
+    text-decoration: none;
+  }
+  
+  .title:hover {
+    letter-spacing: 3px;
+    text-decoration: none !important;
+  }
+  
+  
+ 
+  
+  
+button{
+   color: black;
+}
+
+.form-link{
+    padding-bottom:10px;
+    padding-right: 30px;
+    text-decoration: none !important;
+
+}

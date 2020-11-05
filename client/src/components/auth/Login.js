@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react"
 import { useAuth } from './contexts/AuthContext'
 import { Link, useHistory } from "react-router-dom"
 import { Button, Alert } from 'react-bootstrap'
+import Background from './image/Background.jpg'
+import './Form.css'
 
 export default function Login() {
 
@@ -27,41 +29,55 @@ export default function Login() {
 
         setLoading(false)
     }
+
+    let sectionStyle = {
+        width: "100",
+        height: "100",
+        backgroundImage: "url(" + Background + ")"
+    };
+
+
     return (
+        <section style={sectionStyle}
+        >
 
-        <div className="page">
-            <h2>Log in</h2>
-            <form onSubmit={handleSubmit} className="form" >
-               
 
-                <label htmlFor="login-email">Email</label>
-                <input
-                    id="login-email"
-                    type="email"
-                    ref={emailRef}
-                    required
+            <div className="align">
 
-                />
+                <h2>Log in</h2>
 
-                <label htmlFor="login-password">Password</label>
-                <input
-                    id="login-password"
-                    type="password"
-                    type="password"
-                    ref={passwordRef}
-                    required
+                <form onSubmit={handleSubmit} className="form" >
 
-                />
-                
-                <Alert variant="danger" fade={false}>{error}</Alert>
-                <Button variant="primary" size="lg" disabled={loading} type="submit" value="Log in" block>Login</Button>
 
-                <div className="w-100 text-center mt-2">
-                    Need an account? <Link to="/signup">Sign Up</Link>
-                </div>
-            </form>
-        </div>
+
+                    <label htmlFor="login-email">Email</label>
+                    <input
+                        id="login-email"
+                        type="email"
+                        ref={emailRef}
+                        required
+
+                    />
+
+                    <label htmlFor="login-password">Password</label>
+                    <input
+                        id="login-password"
+                        type="password"
+                        type="password"
+                        ref={passwordRef}
+                        required
+
+                    />
+                    <button type="submit" disabled={loading} className="btn-login">LOGIN</button>
+
+                    <div className="w-100 text-center mt-2">
+                        Need an account? <Link to="/signup">Sign Up</Link>
+                    </div>
+                </form>
+            </div>
+        </section>
     );
+
 
 
 }
