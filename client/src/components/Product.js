@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
 import product from '../trilliant.json'
+import Grid from '@material-ui/core/Grid';
+import { DataGrid } from '@material-ui/data-grid';
+import SearchIcon from "@material-ui/icons/Search";
 
 
 function searchingFor(term) {
@@ -9,14 +12,21 @@ function searchingFor(term) {
     }
 }
 
+
+
 export default class Products extends Component {
+
+
     constructor(props) {
         super(props);
         this.state = {
             product: product,
             term: "",
+            spacing: '16',
+
         }
         this.searchHandler = this.searchHandler.bind(this);
+
     }
 
 
@@ -24,50 +34,70 @@ export default class Products extends Component {
         this.setState({ term: event.target.value })
     }
 
+
+
+
     render() {
-        const { term, product } = this.state;
+
+        const { term, product, spacing } = this.state;
+
+
+
+
         return (
-            <div>
-                <ul className='second-nav-container'>
-                    <li><a href="">Men</a></li>
-                    <li><a href="">Women</a></li>
-                    <li><a href="">Shirts</a></li>
-                    <li><a href="">Dresses</a></li>
-                    <li><a href="">Pants</a></li>
-                    <li> <form className="search-container">
+
+            <div >
+
+
+                <div class="wrap">
+                    <div class="search">
+
+
                         <input type="text"
                             onChange={this.searchHandler}
                             value={term}
-                            placeholder="Search"
+                            className="searchTerm"
+                            placeholder="What are you looking for?"
                         />
-                    </form>
-                    </li>
-                </ul>
+                        <div type="submit" class="searchButton">
+                            <SearchIcon />
+                        </div>
+                    </div>
+                </div>
+                <div className="grid"  >
 
+                    <div className="products" >
 
-                <ul className="products">
-                    {this.props.products.filter(searchingFor(term)).map((product) => (
-                        < li key={product._id} >
-                            <div className="product">
-                                <a href={product.url}>
-                                    <img src={product.image} ></img>
-                                </a>
-                                <div className="product-name">
-                                    {product.name}
+                        {this.props.products.filter(searchingFor(term)).map((product) => (
+                            < li key={product._id} >
+                                <div className="product">
+                                    <a href={product.url}>
+                                        <img src={product.image} ></img>
+                                    </a>
+                                    <div className="product-name">
+                                        {product.name}
+                                    </div>
+                                    <div className="product-store">{product.store}</div>
+                                    <div className="product-price">
+                                        {formatCurrency(product.price)}
+                                    </div>
                                 </div>
-                                <div className="product-store">{product.store}</div>
-                                <div className="product-price">
-                                    {formatCurrency(product.price)}
-                                </div>
-                            </div>
-                        </li>
-                    ))}
 
-                </ul>
-            </div>
+                            </li>
+                        ))}
+
+                    </div>
+                </div>
+            </div >
         );
     }
 }
+
+
+
+
+
+
 
 
 

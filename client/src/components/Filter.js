@@ -2,6 +2,8 @@
 import React, { Component } from "react";
 import product from '../trilliant.json'
 
+
+
 export default class Filter extends Component {
     render() {
         return (
@@ -41,7 +43,7 @@ export default class Filter extends Component {
                 </div>
 
 
-                <div className="filter-gender">
+                {/* <div className="filter-gender">
                     Filter{" "}
                     <select value={this.props.gender} onChange={this.props.filterGender}>
                         <option value="">ALL</option>
@@ -49,7 +51,7 @@ export default class Filter extends Component {
                         <option value="M">M</option>
 
                     </select>
-                </div>
+                </div> */}
             </div>
         );
     }
