@@ -34,8 +34,8 @@ body {
 
 }
 .main{
-  background-color: #9dc5c3;
-  background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
 
 .second-nav-container{
@@ -89,32 +89,21 @@ body {
 
 /* products */
 
-.grid {
-margin: auto;
-justify-content: center;
 
-}
 
 .products  {
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  position: relative;
-top: auto;
-
 }
 
-ul.products{
-  max-width: 400px;
-}
 
 div .product{
-  height: 550px;
+
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 90%;
-  background-color: #fff;
-  min-height: 540px;
+  width: 70%;
+  background-color: #fff;;
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
    
@@ -140,10 +129,11 @@ div .product{
 
 
 .product img {
-  max-width: 350px;
-  max-height: 400px;
-  display: block;
+  width:  350px;
+  height: 300px;
+  object-fit: cover;
 }
+
 
 /* Filter */
 
@@ -167,7 +157,8 @@ div .filter{
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00B4CC;
+  border: 3px solid  #2f4353;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   border-right: none;
   padding: 5px;
   height: 30px;
@@ -177,14 +168,14 @@ div .filter{
 }
 
 .searchTerm:focus{
-  color: #00B4CC;
+  color: #2f4353;
 }
 
 .searchButton {
   width: 40px;
   height: 30px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
+  border: 1px solid #2f4353;
+  background: #2f4353;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -226,4 +217,7 @@ div .filter{
   object-fit: cover;
   width: 100%;
 }
+
+
+
 

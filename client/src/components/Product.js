@@ -24,6 +24,8 @@ export default class Products extends Component {
             term: "",
             spacing: '16',
 
+
+
         }
         this.searchHandler = this.searchHandler.bind(this);
 
@@ -39,17 +41,14 @@ export default class Products extends Component {
 
     render() {
 
-        const { term, product, spacing } = this.state;
-
-
-
+        const { term, product } = this.state;
 
         return (
 
             <div >
 
 
-                <div class="wrap">
+                <div className="wrap">
                     <div class="search">
 
 
@@ -64,31 +63,31 @@ export default class Products extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="grid"  >
 
-                    <div className="products" >
 
-                        {this.props.products.filter(searchingFor(term)).map((product) => (
-                            < li key={product._id} >
-                                <div className="product">
-                                    <a href={product.url}>
-                                        <img src={product.image} ></img>
-                                    </a>
-                                    <div className="product-name">
-                                        {product.name}
-                                    </div>
-                                    <div className="product-store">{product.store}</div>
-                                    <div className="product-price">
-                                        {formatCurrency(product.price)}
-                                    </div>
+                <div className="products" >
+                    {this.props.products.filter(searchingFor(term)).map((product) => (
+                        < li key={product._id} >
+                            <div className="product">
+                                <a href={product.url}>
+                                    <img src={product.image} ></img>
+                                </a>
+                                <div className="product-name">
+                                    {product.name}
                                 </div>
+                                <div className="product-store">{product.store}</div>
+                                <div className="product-price">
+                                    {formatCurrency(product.price)}
+                                </div>
+                            </div>
 
-                            </li>
-                        ))}
+                        </li>
+                    ))}
 
-                    </div>
                 </div>
-            </div >
+            </div>
+
+
         );
     }
 }
