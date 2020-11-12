@@ -1,12 +1,32 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
 import { ImFacebook2 } from 'react-icons/im';
 
 import "./Landing.css"
 
+import ReactGA from 'react-ga';
+
+
+export const initGA = () => {
+    console.log("GA init")
+    ReactGA.initialize("G-1ZGEV4257C")
+}
+
+export const logPageView = () => {
+    ReactGA.set({ page: window.location.path })
+    ReactGA.pageview(window.location.pathname)
+}
+
+
 
 export class Landing extends Component {
+
+
+    componentDidMount() {
+        initGA()
+        logPageView()
+    }
     render() {
         return (
             <div className="landing-main">
