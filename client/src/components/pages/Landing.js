@@ -2,11 +2,8 @@ import React, { Component, useEffect } from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
 import { ImFacebook2 } from 'react-icons/im';
-
 import "./Landing.css"
-
 import ReactGA from 'react-ga';
-
 
 export const initGA = () => {
     console.log("GA init")

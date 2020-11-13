@@ -4,9 +4,9 @@ import { Link, useHistory } from "react-router-dom"
 import { Button, Alert } from 'react-bootstrap'
 import Background from './image/Background.jpg'
 import './Form.css'
+import { analytics } from "../../firebase"
 
 export default function Login() {
-
 
     const emailRef = useRef()
     const passwordRef = useRef()
@@ -28,6 +28,8 @@ export default function Login() {
         }
 
         setLoading(false)
+
+
     }
 
     let sectionStyle = {

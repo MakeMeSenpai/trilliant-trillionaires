@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
 import product from '../trilliant.json'
-import Grid from '@material-ui/core/Grid';
-import { DataGrid } from '@material-ui/data-grid';
 import SearchIcon from "@material-ui/icons/Search";
-
+import TextField from '@material-ui/core/TextField';
+import Autocomplete from '@material-ui/lab/Autocomplete';
+import Chip from '@material-ui/core/Chip';
+import { makeStyles } from '@material-ui/core/styles';
 
 function searchingFor(term) {
     return function (x) {
@@ -14,55 +15,64 @@ function searchingFor(term) {
 
 
 
+
+
+
+
+
 export default class Products extends Component {
-
-
     constructor(props) {
         super(props);
         this.state = {
             product: product,
             term: "",
-            spacing: '16',
-
-
-
         }
         this.searchHandler = this.searchHandler.bind(this);
 
     }
-
-
     searchHandler(event) {
         this.setState({ term: event.target.value })
     }
 
-
-
-
     render() {
-
         const { term, product } = this.state;
-
         return (
 
             <div >
-
-
                 <div className="wrap">
                     <div class="search">
-
-
-                        <input type="text"
-                            onChange={this.searchHandler}
-                            value={term}
+                        <Autocomplete
                             className="searchTerm"
-                            placeholder="What are you looking for?"
+                            freeSolo
+                            id="free-solo-2-demo"
+                            disableClearable
+                            defaultValue={[product[13]]}
+                            options={this.props.products.map((product) => product.name)}
+                            renderInput={(params) => (
+                                <TextField
+                                    {...params}
+                                    label="Search input"
+                                    margin="normal"
+                                    variant="outlined"
+                                    onChange={this.searchHandler}
+                                    value={term}
+                                    InputProps={{ ...params.InputProps, type: 'search' }}
+
+                                />
+                            )}
+
+
                         />
                         <div type="submit" class="searchButton">
-                            <SearchIcon />
+                            <SearchIcon fontSize="large" />
                         </div>
+
                     </div>
                 </div>
+
+
+
+
 
 
                 <div className="products" >
@@ -70,7 +80,7 @@ export default class Products extends Component {
                         < li key={product._id} >
                             <div className="product">
                                 <a href={product.url}>
-                                    <img src={product.image} ></img>
+                                    <img src={product.image} alt={product.name}></img>
                                 </a>
                                 <div className="product-name">
                                     {product.name}
@@ -80,14 +90,10 @@ export default class Products extends Component {
                                     {formatCurrency(product.price)}
                                 </div>
                             </div>
-
                         </li>
                     ))}
-
                 </div>
             </div>
-
-
         );
     }
 }
@@ -97,6 +103,8 @@ export default class Products extends Component {
 
 
 
+
+/* eslint-disable no-use-before-define */
 
 
 

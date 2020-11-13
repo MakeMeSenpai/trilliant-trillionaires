@@ -10,11 +10,17 @@ let firebaseConfig = {
     projectId: "trilliant-5ed97",
     storageBucket: "trilliant-5ed97.appspot.com",
     messagingSenderId: "831213855089",
-    appId: "1:831213855089:web:84dee11880700715e3d6d0"
+    appId: "1:831213855089:web:84dee11880700715e3d6d0",
+    measurementId: "G-5DHKW1TEC2"
 };
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
 
+export const analytics = firebase.analytics()
+
+
 
 export const auth = app.auth()
 export default app;
+
+
