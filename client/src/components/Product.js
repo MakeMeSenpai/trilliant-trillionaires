@@ -37,7 +37,6 @@ export default class Products extends Component {
     render() {
         const { term, product } = this.state;
         return (
-
             <div >
                 <div className="wrap">
                     <div class="search">
@@ -60,20 +59,12 @@ export default class Products extends Component {
 
                                 />
                             )}
-
-
                         />
                         <div type="submit" class="searchButton">
                             <SearchIcon fontSize="large" />
                         </div>
-
                     </div>
                 </div>
-
-
-
-
-
 
                 <div className="products" >
                     {this.props.products.filter(searchingFor(term)).map((product) => (

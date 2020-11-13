@@ -140,32 +140,31 @@ div .product {
 
 /* Filter */
 
-.formControl{
-  margin: 1px;
-  min-width: 1px;
-}
+
 
 div .filter{
   display: flex;
   flex-direction: row;
-  justify-content: left;   
-
+  justify-content: left;  
 }
-.filter div {
-  margin:1em;
-  padding-left: 2em;
+
+form{
+  padding-left: 3em;
+
 }
 
 label{
-  position: absolute;
+position: absolute;
  bottom: 30px;
  left: -20px;
+ color: black;
+ opacity: .6;
 }
 
 
 .searchTerm {
   height: 50%;
-  width: 100%;
+  width: 90%;
 
 }
 
