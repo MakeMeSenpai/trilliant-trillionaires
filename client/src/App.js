@@ -7,6 +7,7 @@ import Landing from './components/pages/Landing'
 import Login from './components/auth/Login'
 import Signup from './components/auth/Signup';
 import { AuthProvider } from './components/auth/contexts/AuthContext';
+import { Pagination } from 'react-bootstrap'
 
 // import ReactGA from 'react-ga';
 
@@ -31,9 +32,7 @@ export default function App() {
                     <Header />
                     <Switch>
                         <Route exact path="/" component={Landing} />
-
                         <Route exact path="/catelog" component={Home} />
-
                         <Route exact path="/login" component={Login} />
                         <Route exact path="/signup" component={Signup} />
                     </Switch>

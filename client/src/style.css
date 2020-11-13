@@ -95,7 +95,11 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+
 }
+
 
 
 div .product {
@@ -153,17 +157,9 @@ form{
 
 }
 
-label{
-position: absolute;
- bottom: 30px;
- left: -20px;
- color: black;
- opacity: .6;
-}
 
 
 .searchTerm {
-  height: 50%;
   width: 90%;
 
 }
@@ -171,16 +167,17 @@ position: absolute;
 
 .searchButton {
   position: absolute;
-  right: -50px;
+  left:93%;
   top: 30%;
+
 }
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
+  width: 50%;
   position: absolute;
   top: 68%;
-  left: 80%;
+  left: 70%;
   transform: translate(-50%, -50%);
   
 }

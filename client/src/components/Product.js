@@ -4,22 +4,12 @@ import product from '../trilliant.json'
 import SearchIcon from "@material-ui/icons/Search";
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-import Chip from '@material-ui/core/Chip';
-import { makeStyles } from '@material-ui/core/styles';
 
 function searchingFor(term) {
     return function (x) {
         return x.name.toLowerCase().includes(term.toLowerCase()) || !term;
     }
 }
-
-
-
-
-
-
-
-
 export default class Products extends Component {
     constructor(props) {
         super(props);
@@ -45,7 +35,6 @@ export default class Products extends Component {
                             freeSolo
                             id="free-solo-2-demo"
                             disableClearable
-                            defaultValue={[product[13]]}
                             options={this.props.products.map((product) => product.name)}
                             renderInput={(params) => (
                                 <TextField
@@ -65,7 +54,6 @@ export default class Products extends Component {
                         </div>
                     </div>
                 </div>
-
                 <div className="products" >
                     {this.props.products.filter(searchingFor(term)).map((product) => (
                         < li key={product._id} >
@@ -90,12 +78,6 @@ export default class Products extends Component {
 }
 
 
-
-
-
-
-
-/* eslint-disable no-use-before-define */
 
 
 
