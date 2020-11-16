@@ -75,18 +75,18 @@ class ControlledOpenSelect extends React.Component {
 
 
                     <FormControl className={classes.formControl}>
-                        <InputLabel htmlFor="demo-controlled-open-select">Size</InputLabel>
+                        <InputLabel htmlFor="demo-controlled-open-select">Quality</InputLabel>
 
                         <Select
                             labelId="demo-simple-select-outlined-label"
                             id="demo-simple-select-outlined"
-                            value={this.props.size}
-                            onChange={this.props.filterProducts}
+                            value={this.props.quality}
+                            onChange={this.props.filterQuality}
                             label="Sizes"
                         >
-                            <MenuItem value="">ALL</MenuItem>
-                            <MenuItem value="XS">XS</MenuItem>
-                            <MenuItem value="S">S</MenuItem>
+                            <MenuItem value="100">High</MenuItem>
+                            <MenuItem value="80">Medium</MenuItem>
+                            <MenuItem value="60">Low</MenuItem>
                             <MenuItem value="M">M</MenuItem>
                             <MenuItem value="L">L</MenuItem>
                             <MenuItem value="XL">XL</MenuItem>
@@ -96,7 +96,7 @@ class ControlledOpenSelect extends React.Component {
 
 
                     <FormControl className={classes.formControl}>
-                        <InputLabel htmlFor="demo-controlled-open-select">Body Type</InputLabel>
+                        <InputLabel htmlFor="demo-controlled-open-select">Average Fit</InputLabel>
                         <Select
                             labelId="demo-simple-select-outlined-label"
                             id="demo-simple-select-outlined"

@@ -15,6 +15,7 @@ class App extends React.Component {
             size: "",
             sort: "",
             bodytype: "",
+            quality: "",
 
         };
     }
@@ -59,8 +60,6 @@ class App extends React.Component {
     filterBodytype = (event) => {
         // impl
         let averageFit = event.target.value;
-
-        console.log(event.target.value);
         if (averageFit == "0") {
             this.setState({ bodytype: event.target.value, products: data.products }, () => {
                 console.log('All Products Show', this.state.products)
@@ -74,6 +73,20 @@ class App extends React.Component {
             });
         }
     };
+    filterQuality = (event) => {
+        let averageQuality = event.target.value;
+
+        console.log(event.target.value)
+
+        if (averageQuality == '100') {
+            this.setState({
+                quality: event.target.value,
+                products: data.products.filter((product) => product.averageQuality == averageQuality),
+             }, () => {
+                 console.log("Quality", this.state.products);
+             })
+        }
+    }
 
     render() {
 
@@ -87,6 +100,7 @@ class App extends React.Component {
                     sort={this.state.sort}
                     bodytype={this.state.bodytype}
                     filterBodytype={this.filterBodytype}
+                    filterQuality={this.filterQuality}
                     filterProducts={this.filterProducts}
                     sortProducts={this.sortProducts}
                 ></Filter>
