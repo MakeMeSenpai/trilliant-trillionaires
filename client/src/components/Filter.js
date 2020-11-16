@@ -84,6 +84,7 @@ class ControlledOpenSelect extends React.Component {
                             onChange={this.props.filterQuality}
                             label="Sizes"
                         >
+                            <MenuItem value="">All</MenuItem>
                             <MenuItem value="100">High</MenuItem>
                             <MenuItem value="80">Medium</MenuItem>
                             <MenuItem value="60">Low</MenuItem>

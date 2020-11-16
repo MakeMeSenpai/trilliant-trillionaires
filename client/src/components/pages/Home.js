@@ -97,6 +97,11 @@ class App extends React.Component {
                 quality: event.target.value,
                 products: data.products.filter((product) => product.averageQuality == averageQuality)
             })
+        } else {
+            this.setState({
+                quality: event.target.value,
+                products: data.products
+            }, () => console.log("All", this.state.products))
         }
     }
 
