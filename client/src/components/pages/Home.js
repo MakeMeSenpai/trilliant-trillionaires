@@ -85,6 +85,18 @@ class App extends React.Component {
              }, () => {
                  console.log("Quality", this.state.products);
              })
+        } else if ( averageQuality == '80') {
+            this.setState({
+                quality: event.target.value,
+                products: data.products.filter((product) => product.averageQuality == averageQuality)
+            }, () => {
+                console.log("Quality 80", this.state.products)
+            })
+        } else if ( averageQuality == '60') {
+            this.setState({
+                quality: event.target.value,
+                products: data.products.filter((product) => product.averageQuality == averageQuality)
+            })
         }
     }
 

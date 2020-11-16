@@ -87,10 +87,6 @@ class ControlledOpenSelect extends React.Component {
                             <MenuItem value="100">High</MenuItem>
                             <MenuItem value="80">Medium</MenuItem>
                             <MenuItem value="60">Low</MenuItem>
-                            <MenuItem value="M">M</MenuItem>
-                            <MenuItem value="L">L</MenuItem>
-                            <MenuItem value="XL">XL</MenuItem>
-                            <MenuItem value="XXL">XXL</MenuItem>
                         </Select>
                     </FormControl>
 
