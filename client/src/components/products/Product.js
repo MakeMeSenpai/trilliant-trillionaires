@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import formatCurrency from "../../util";
 import product from '../../trilliant.json'
-import SearchIcon from "@material-ui/icons/Search";
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
+import './product.css'
 
 function searchingFor(term) {
     return function (x) {

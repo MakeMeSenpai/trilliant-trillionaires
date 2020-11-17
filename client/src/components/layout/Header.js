@@ -27,7 +27,6 @@ export default function Header() {
     return (
         <header id="header">
 
-
             <div className="title-container">
                 <Link to="/catelog" className='title-link'>
                     <h1 className="title"> Trilliant</h1>
@@ -41,7 +40,6 @@ export default function Header() {
 
                 {currentUser && (
                     <Link variant="primary" className="form-link" onClick={handleLogout}>Logout</Link>
-
                 )
                 }
 
