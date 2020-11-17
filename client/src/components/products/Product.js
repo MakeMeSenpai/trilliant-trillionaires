@@ -33,7 +33,7 @@ export default class Products extends Component {
             <div className="product-display">
 
                 <Autocomplete
-
+                    multiple
                     className="searchTerm"
                     freeSolo
                     id="free-solo-2-demo"
@@ -46,7 +46,7 @@ export default class Products extends Component {
                             label="Search input"
                             margin="normal"
                             variant="outlined"
-                            onChange={this.searchHandler}
+                            onSelect={this.searchHandler}
                             value={term}
                             InputProps={{
                                 ...params.InputProps, type: 'search',
@@ -60,6 +60,8 @@ export default class Products extends Component {
 
 
                         />
+
+
 
                     )}
                 />
