@@ -17,7 +17,7 @@
     height: 50px;
     display: flex;
     flex-direction: row;
-    background-color: #eae0d07d;
+    background-color: white;
     justify-content: space-between;
     align-items: baseline;
     
@@ -40,14 +40,18 @@
   }
   
   
- 
-  
-  
 
 .form-link{
-    padding-bottom:10px;
-    padding-right: 30px;
+    color: #000;
+    font-size: 14pt;
+    margin-bottom:10px;
+    margin-right: 30px;
     text-decoration: none !important;
+    transition: 200ms;
+    transition-duration: eas;
 
 }
 
+.form-link:hover {
+  color: gray;
+}

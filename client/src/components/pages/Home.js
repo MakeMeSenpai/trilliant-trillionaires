@@ -110,7 +110,7 @@ class App extends React.Component {
         return (
 
             <div className="main">
-                <Carouselitem />
+                {/* <Carouselitem /> */}
                 <div className="search-filter">
                     <Filter
                         count={this.state.products.length}

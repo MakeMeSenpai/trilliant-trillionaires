@@ -9,18 +9,7 @@ import Signup from './components/auth/Signup';
 import { AuthProvider } from './components/auth/contexts/AuthContext';
 import { Pagination } from 'react-bootstrap'
 
-// import ReactGA from 'react-ga';
 
-
-// export const initGA = () => {
-//     console.log("GA init")
-//     ReactGA.initialize("G-1ZGEV4257C")
-// }
-
-// export const logPageView = () => {
-//     ReactGA.set({ page: window.location.path })
-//     ReactGA.pageview(window.location.pathname)
-// }
 
 export default function App() {
     // initGA()

@@ -43,16 +43,16 @@ export default class Products extends Component {
 
                         <TextField
                             {...params}
-                            label="Search input"
+                            // label="Search input"
                             margin="normal"
-                            variant="outlined"
+                            // variant="outlined"
                             onChange={this.searchHandler}
                             value={term}
                             InputProps={{
                                 ...params.InputProps, type: 'search',
                                 startAdornment: (
                                     <InputAdornment position="start">
-                                        <SearchIcon fontSize="large" />
+                                        <SearchIcon fontSize="small" />
                                     </InputAdornment>
                                 )
                             }}
