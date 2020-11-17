@@ -39,7 +39,9 @@ export default function Header() {
                 }
 
                 {currentUser && (
-                    <Link variant="primary" className="form-link" onClick={handleLogout}>Logout</Link>
+                    <Link variant="primary" className="form-link" onClick={handleLogout}> Logout</Link>
+
+
                 )
                 }
 

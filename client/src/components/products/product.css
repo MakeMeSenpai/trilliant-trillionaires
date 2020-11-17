@@ -4,6 +4,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    height: 25%; 
+    overflow-y: scroll;
   
   
   }
@@ -14,7 +16,7 @@
   
 
 .product:hover {
-  box-shadow: 0 14px 20px rgba(0,0,0,0.1);  
+  box-shadow: 0 14px 20px rgba(250, 132, 5, 0.1);  
 }
 .product-name {
   font-size: 15px;
@@ -29,9 +31,10 @@
 }
 
 .product-price {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 10px;
+  color: grey;
 
 }
 .product img {

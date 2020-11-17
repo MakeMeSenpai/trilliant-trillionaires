@@ -8,6 +8,7 @@ import './Form.css'
 
 export default function Signup() {
     const emailRef = useRef()
+    const userRef = useRef()
     const passwordRef = useRef()
     const passwordConfirmRef = useRef()
     const displayNameRef = useRef()
@@ -28,12 +29,13 @@ export default function Signup() {
         try {
             setError('')
             setLoading(true)
-            await signup(emailRef.current.value, passwordRef.current.value)
+            await signup(emailRef.current.value, userRef.current.value, passwordRef.current.value)
             history.push("/catelog")
 
         } catch {
             setError('Failed to create an account')
         }
+
 
         setLoading(false)
     }
@@ -57,7 +59,6 @@ export default function Signup() {
                     {error}
 
                     <label htmlFor="register-email">Email</label>
-
                     <input
                         id="register-email"
                         type="email"

@@ -7,7 +7,6 @@ import './Form.css'
 import { analytics } from "../../firebase"
 
 export default function Login() {
-
     const emailRef = useRef()
     const passwordRef = useRef()
     const { login } = useAuth()
@@ -42,15 +41,9 @@ export default function Login() {
     return (
         <section style={sectionStyle}
         >
-
-
             <div className="align">
-
                 <h2>Log in</h2>
-
                 <form onSubmit={handleSubmit} className="form" >
-
-
 
                     <label htmlFor="login-email">Email</label>
                     <input
