@@ -1,8 +1,8 @@
 // feature 1
 import React from "react";
 import data from "../../trilliant.json";
-import Products from "../Product";
-import Filter from "../Filter"
+import Products from "../products/Product";
+import Filter from "../filter/Filter"
 import Carouselitem from "../carousel/Carouselitem.js";
 import { Carousel } from "react-bootstrap";
 
@@ -82,17 +82,17 @@ class App extends React.Component {
             this.setState({
                 quality: event.target.value,
                 products: data.products.filter((product) => product.averageQuality == averageQuality),
-             }, () => {
-                 console.log("Quality", this.state.products);
-             })
-        } else if ( averageQuality == '80') {
+            }, () => {
+                console.log("Quality", this.state.products);
+            })
+        } else if (averageQuality == '80') {
             this.setState({
                 quality: event.target.value,
                 products: data.products.filter((product) => product.averageQuality == averageQuality)
             }, () => {
                 console.log("Quality 80", this.state.products)
             })
-        } else if ( averageQuality == '60') {
+        } else if (averageQuality == '60') {
             this.setState({
                 quality: event.target.value,
                 products: data.products.filter((product) => product.averageQuality == averageQuality)
@@ -111,18 +111,21 @@ class App extends React.Component {
 
             <div className="main">
                 <Carouselitem />
-                <Filter
-                    count={this.state.products.length}
-                    size={this.state.size}
-                    sort={this.state.sort}
-                    bodytype={this.state.bodytype}
-                    filterBodytype={this.filterBodytype}
-                    filterQuality={this.filterQuality}
-                    filterProducts={this.filterProducts}
-                    sortProducts={this.sortProducts}
-                ></Filter>
+                <div className="search-filter">
+                    <Filter
+                        count={this.state.products.length}
+                        size={this.state.size}
+                        sort={this.state.sort}
+                        bodytype={this.state.bodytype}
+                        filterBodytype={this.filterBodytype}
+                        filterQuality={this.filterQuality}
+                        filterProducts={this.filterProducts}
+                        sortProducts={this.sortProducts}
+                    ></Filter>
 
-                <Products products={this.state.products}></Products>
+
+                    <Products products={this.state.products}></Products>
+                </div>
             </div>
 
         );

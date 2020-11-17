@@ -91,15 +91,23 @@ body {
 
 
 
-.products  {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
 
-}
+  .products  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  
+  
+  }
+  
 
+
+  .product-display{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  
 
 
 div .product {
@@ -139,73 +147,24 @@ div .product {
   width:  350px;
   height: 300px;
   object-fit: cover;
+  padding: 10px;
 }
 
 
 /* Filter */
 
-
-
-div .filter{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;  
-}
-
-form{
-  padding-left: 3em;
-
-}
-
-
-
 .searchTerm {
-  width: 90%;
+  width: 35%;
+  align-items: flex-end;
 
 }
 
-
-.searchButton {
-  position: absolute;
-  left:93%;
-  top: 30%;
-
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-  width: 50%;
-  position: absolute;
-  top: 68%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  
-}
-
-
-
-.carousel {
-  margin-bottom: 2em;
-  height: 50vh;
-  width: 100%;
-
-}
-
-.carousel-item{
-  height: 50vh;
+.search-filter{
+  display: flex;
   width: 100%;
 }
 
-.carousel image{
-  max-width: 100%;
-  max-height: 100%;
 
-} 
-
-.carousel-image{
-  object-fit: cover;
-  width: 100%;
-}
 
 
 
