@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: 25%; 
+    height: 30%; 
     overflow-y: scroll;
   
   
@@ -46,7 +46,8 @@
 }
 
 .searchTerm {
-  width: 35%;
+  width: 70%;
+  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
 

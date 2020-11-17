@@ -7,12 +7,16 @@ import './product.css'
 import InputAdornment from '@material-ui/core/InputAdornment';
 import Popover from '@material-ui/core/Popover';
 import SearchIcon from '@material-ui/icons/Search';
+import Chip from '@material-ui/core/Chip';
+
+
 
 function searchingFor(term) {
     return function (x) {
         return x.name.toLowerCase().includes(term.toLowerCase()) || !term;
     }
 }
+
 export default class Products extends Component {
     constructor(props) {
         super(props);
@@ -27,26 +31,24 @@ export default class Products extends Component {
         this.setState({ term: event.target.value })
     }
 
+
+
     render() {
         const { term, product } = this.state;
         return (
             <div className="product-display">
 
                 <Autocomplete
-
                     className="searchTerm"
                     freeSolo
-                    id="free-solo-2-demo"
                     disableClearable
                     options={this.props.products.map((product) => product.name)}
                     renderInput={(params) => (
 
                         <TextField
                             {...params}
-                            // label="Search input"
                             margin="normal"
-                            // variant="outlined"
-                            onChange={this.searchHandler}
+                            onSelect={this.searchHandler}
                             value={term}
                             InputProps={{
                                 ...params.InputProps, type: 'search',
@@ -54,15 +56,19 @@ export default class Products extends Component {
                                     <InputAdornment position="start">
                                         <SearchIcon fontSize="small" />
                                     </InputAdornment>
-                                )
+                                ),
+
                             }}
                             placeholder="Search clothes..."
 
 
                         />
 
+
+
                     )}
                 />
+
                 <div className="products" >
                     {this.props.products.filter(searchingFor(term)).map((product) => (
                         <div className="product" key={product._id}>

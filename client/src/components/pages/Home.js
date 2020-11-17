@@ -5,6 +5,7 @@ import Products from "../products/Product";
 import Filter from "../filter/Filter"
 import Carouselitem from "../carousel/Carouselitem.js";
 import { Carousel } from "react-bootstrap";
+import Test from '../../test'
 
 
 class App extends React.Component {
@@ -122,6 +123,7 @@ class App extends React.Component {
                         filterProducts={this.filterProducts}
                         sortProducts={this.sortProducts}
                     ></Filter>
+
 
 
                     <Products products={this.state.products}></Products>
