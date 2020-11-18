@@ -1,39 +1,42 @@
 
 /* products */
+.product-display{
+  display: flex;
+  flex-flow: row wrap;
+
+
+}
 .products  {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: 30%; 
-    overflow-y: scroll;
-  
+    overflow-y: scroll; 
+    height:500px;
+ 
+
   
   }
-  .product-display{
-    display: flex;
-    flex-flow: column wrap;
-  }
-  
+
 
 .product:hover {
   box-shadow: 0 14px 20px rgba(250, 132, 5, 0.1);  
 }
 .product-name {
   font-size: 15px;
-  font-weight: bold;
-  padding: 5px;
+  font-weight: lighter;
+  padding: 0 10px;
 
 }
 
 .product-store{
   color: grey;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .product-price {
   font-size: 1.5rem;
-  font-weight: bold;
-  padding: 10px;
+  font-weight: lighter;
+  padding:  10px;
   color: grey;
 
 }
@@ -42,7 +45,6 @@
   height: 300px;
   object-fit: cover;
   padding: 10px;
-  margin-top: 40px;
 }
 
 .searchTerm {
@@ -50,7 +52,7 @@
   padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
-
+  font-weight: lighter;
 }
 
 
@@ -58,10 +60,5 @@
 
 
 
-.search-icon{
-  position:relative;
-  left: 70%;
-  bottom: 50px;
 
-  /* readujst in jsfiddle */
-}
+

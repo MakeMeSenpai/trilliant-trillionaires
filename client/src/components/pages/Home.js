@@ -110,7 +110,7 @@ class App extends React.Component {
 
         return (
 
-            <div className="main">
+            <div >
                 {/* <Carouselitem /> */}
                 <div className="search-filter">
                     <Filter
