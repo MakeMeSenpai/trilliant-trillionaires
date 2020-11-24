@@ -62,6 +62,7 @@ export default class Products extends Component {
                             placeholder="Search clothes..."
 
 
+
                         />
 
 

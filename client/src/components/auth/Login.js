@@ -39,38 +39,37 @@ export default function Login() {
 
 
     return (
-        <section style={sectionStyle}
-        >
-            <div className="align">
-                <h2>Log in</h2>
-                <form onSubmit={handleSubmit} className="form" >
 
-                    <label htmlFor="login-email">Email</label>
-                    <input
-                        id="login-email"
-                        type="email"
-                        ref={emailRef}
-                        required
+        <div className="align">
+            <h2>Log in</h2>
+            <form onSubmit={handleSubmit} className="form" >
 
-                    />
+                <label htmlFor="login-email">Email</label>
+                <input
+                    id="login-email"
+                    type="email"
+                    ref={emailRef}
+                    required
 
-                    <label htmlFor="login-password">Password</label>
-                    <input
-                        id="login-password"
-                        type="password"
-                        type="password"
-                        ref={passwordRef}
-                        required
+                />
 
-                    />
-                    <button type="submit" disabled={loading} className="btn-login">LOGIN</button>
+                <label htmlFor="login-password">Password</label>
+                <input
+                    id="login-password"
+                    type="password"
+                    type="password"
+                    ref={passwordRef}
+                    required
 
-                    <div className="w-100 text-center mt-2">
-                        Need an account? <Link to="/signup">Sign Up</Link>
-                    </div>
-                </form>
-            </div>
-        </section>
+                />
+                <button type="submit" disabled={loading} className="btn-login">LOGIN</button>
+
+                <div className="w-100 text-center mt-2">
+                    Need an account? <Link to="/signup">Sign Up</Link>
+                </div>
+            </form>
+        </div>
+
     );
 
 
