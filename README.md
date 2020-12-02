@@ -21,18 +21,18 @@ People who are tired of being ignored or scammed by online fashion retailers.
 ### Product Value
 People who are taller or curvier than typical fashion models can use this platform to find clothing in their size and price range.
 
+## Contributors
+Product Manager: [reikamoon](https://github.com/reikamoon)<br>
+Front End Lead: [shaannessy25](https://github.com/shaannessy25)<br>
+Back End Lead: [farhan-begg](https://github.com/farhan-begg)<br>
+Design Lead/Gitmaster: [MakeMeSenpai](https://github.com/makemesenpai)<br>
+
 ## Designs
 ![design1](images/design.png)
 ![design2](images/design2.png)
 
 ## Link
 [Trilliant Live Link](https://trilliant-5ed97.web.app/)
-
-## Contributors
-Product Manager: [reikamoon](https://github.com/reikamoon)<br>
-Front End Lead: [shaannessy25](https://github.com/shaannessy25)<br>
-Back End Lead: [farhan-begg](https://github.com/farhan-begg)<br>
-Design Lead/Gitmaster: [MakeMeSenpai](https://github.com/makemesenpai)<br>
 
 
 ## Key Features
