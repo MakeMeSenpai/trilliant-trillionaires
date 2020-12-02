@@ -16,7 +16,7 @@
     * [Installation](##-installation)
 ## What is Trilliant?
 Trilliant is a platform for fashion product reviews with pictures and videos. We are creating a shopping experience that allows you to find clothes recommended by other shoppers like you. We’re focused on bringing representation to diverse body types and reducing the environmental impact of returns and unsustainable supply chains.
-### Users
+### Target Audience
 People who are tired of being ignored or scammed by online fashion retailers.
 ### Product Value
 People who are taller or curvier than typical fashion models can use this platform to find clothing in their size and price range.
