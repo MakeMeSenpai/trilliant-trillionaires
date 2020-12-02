@@ -35,7 +35,7 @@ export class Landing extends Component {
                                     <h1>Trilliant</h1>
                                     <h2>Know what you're getting when you shop online.</h2>
                                     <p>Trilliant lets you view and upload product reviews while you browse online stores. See pictures from other shoppers so that you never have to be disappointed when your order arrives.</p>
-                                    <Button variant="secondary" size="lg" href="/catelog" block>Catelog</Button>
+                                    <Button variant="secondary" size="lg" href="/catelog" block>Catalog</Button>
                                     <Button variant="primary" size="lg" href="https://chrome.google.com/webstore/detail/trilliant-product-reviews/kmlccnfningikbpkanojlhoafkogcple" block>Chrome Extension</Button>
                                 </div>
                             </Col>
