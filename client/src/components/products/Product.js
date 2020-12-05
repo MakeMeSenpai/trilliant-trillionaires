@@ -39,6 +39,10 @@ export default class Products extends Component {
             <div className="product-display">
 
                 <Autocomplete
+<<<<<<< HEAD
+=======
+                    multiple
+>>>>>>> f97252b... updating footer
                     className="searchTerm"
                     freeSolo
                     disableClearable
