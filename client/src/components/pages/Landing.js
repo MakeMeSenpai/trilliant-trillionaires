@@ -59,9 +59,9 @@ export class Landing extends Component {
                 <div>
                     <div className="page-footer">
                         <ul>
-                            <li><a href="https://www.facebook.com/TrilliantProductReviews"><ImFacebook2 size={36} /></a></li>
-                            <li><a className="ig-icon" href="https://www.instagram.com/trilliantreviewsandthings/"><FaInstagram size={36} /></a></li>
-                            <li><a href="https://twitter.com/Trilliant2"><FaTwitter size={36} /></a></li>
+                            <li><a href="https://www.facebook.com/TrilliantProductReviews"><ImFacebook2 size={38} /></a></li>
+                            <li><a className="ig-icon" href="https://www.instagram.com/trilliantreviewsandthings/"><FaInstagram size={38} /></a></li>
+                            <li><a href="https://twitter.com/Trilliant2"><FaTwitter size={38} /></a></li>
                         </ul>
                     </div>
                 </div>
