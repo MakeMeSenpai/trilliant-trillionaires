@@ -5,8 +5,9 @@
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 20px;
-    
-
+    position: absolute;
+    top: 10%;
+    left: 15%;
   
   }
   .product-display{
