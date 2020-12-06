@@ -4,13 +4,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-
-    position: absolute; 
-    top: 15%;
-    margin-left: 50px;
-
-
- 
+    margin-top: 20px;
+    
 
   
   }
