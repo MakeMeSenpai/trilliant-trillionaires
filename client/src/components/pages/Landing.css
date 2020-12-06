@@ -52,23 +52,24 @@
 /*--------Footer--------- */
 
 
-.page-footer {
+/* .page-footer {
     display: flex;
-    border-top: 2px dashed #F19732;
-    justify-content: space-evenly;
-    margin: 0px 20px 0px 20px;
+    justify-content: center;
+  } */
 
-  }
-
-  .page-footer > ul {
+  .page-footer-container {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
     list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin: 0px 30px;
   }
-  
-  .page-footer > ul > li {
-    margin: 10px 30px;
+  .page-footer-container > li  {
+    margin: 0px 20px 0px 20px;
+  }
+
+  .page-footer-container > ul > li {
+    justify-content: space-evenly;
   }
 
   .ig-icon {

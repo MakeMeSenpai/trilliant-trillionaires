@@ -49,7 +49,7 @@ export class Landing extends Component {
                 <div className="section-about">
                     <Container fluid='md'>
                         <Row className="justify-content-md-center">
-                            <Col style={{ margin: "100px 0px 0px 0px" }}>
+                            <Col style={{ margin: "200px 0px 0px 0px" }}>
                                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/QBMuN3VkjbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </Col>
                         </Row>
@@ -57,8 +57,8 @@ export class Landing extends Component {
 
                 </div>
                 <div>
-                    <div className="page-footer">
-                        <ul>
+                    <div>
+                        <ul className="page-footer-container">
                             <li><a href="https://www.facebook.com/TrilliantProductReviews"><ImFacebook2 size={38} /></a></li>
                             <li><a className="ig-icon" href="https://www.instagram.com/trilliantreviewsandthings/"><FaInstagram size={38} /></a></li>
                             <li><a href="https://twitter.com/Trilliant2"><FaTwitter size={38} /></a></li>
