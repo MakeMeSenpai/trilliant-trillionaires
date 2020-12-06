@@ -28,7 +28,7 @@ export default function Header() {
         <header id="header">
 
             <div className="title-container">
-                <Link to="/catelog" className='title-link'>
+                <Link to="/catalog" className='title-link'>
                     <h1 className="title"> Trilliant</h1>
                 </Link>
                 {!currentUser && (

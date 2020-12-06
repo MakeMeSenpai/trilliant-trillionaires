@@ -6,6 +6,9 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import './filter.css'
+import Rating from '@material-ui/lab/Rating';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 
 const styles = theme => ({
     button: {
@@ -110,6 +113,35 @@ class ControlledOpenSelect extends React.Component {
 
 
                         </Select>
+
+                        
+                    </FormControl>
+
+                    <FormControl className={classes.formControl}>
+                        <InputLabel htmlFor="demo-controlled-open-select">Rating</InputLabel>
+                        <Select
+                            labelId="demo-simple-select-outlined-label"
+                            id="demo-simple-select-outlined"
+                            value={this.props.bodytype}
+                            onChange={this.props.filterBodytype}
+                            label="Sizes"
+                        >
+                         
+                            <MenuItem value="100"> <Rating name="read-only" defaultValue={4} readOnly /> & Up</MenuItem>
+                            <MenuItem value="80"> <Rating name="read-only" defaultValue={3} readOnly />& Up </MenuItem>
+                            <MenuItem value="60"> <Rating name="read-only" defaultValue={2} readOnly />& Up</MenuItem>
+                            <MenuItem value="40"> <Rating name="read-only" defaultValue={1} readOnly />& Up</MenuItem>
+
+                 
+                         
+                            
+
+
+                        </Select>
+
+
+              
+                        
                     </FormControl>
 
 
