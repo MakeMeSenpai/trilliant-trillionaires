@@ -38,8 +38,7 @@ export default class Products extends Component {
         return (
             <div className="product-display">
 
-                <Autocomplete
-                    multiple
+<Autocomplete
                     className="searchTerm"
                     freeSolo
                     disableClearable
@@ -63,12 +62,14 @@ export default class Products extends Component {
                             placeholder="Search clothes..."
 
 
-
                         />
 
 
 
                     )}
+
+
+
                 />
 
                 <div className="products" >
