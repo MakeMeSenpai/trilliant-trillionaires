@@ -8,7 +8,13 @@
     position: absolute;
     top: 10%;
     left: 15%;
+    padding-bottom: 20px;
   
+  }
+  .product{
+    padding: 20px;
+
+
   }
   .product-display{
     display: flex;
@@ -47,6 +53,16 @@
   padding: 10px;
 }
 
+.average-fit{
+
+  color: grey;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 0 10px;
+
+
+}
+
 .searchTerm {
   width: 70%;
   padding-top: 20px;
@@ -55,7 +71,20 @@
 
 }
 
+.product-fitter{
+  color: black;
+  font-size: 15px;
+  font-weight: lighter;
+  position: relative;
+  float: right;
+  border-left: 1px solid rgb(126, 122, 122);
+  padding-left: 10px;
+  height: 70px;
 
+  
+
+
+}
 
 
 

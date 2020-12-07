@@ -85,6 +85,18 @@ export default class Products extends Component {
                             <div className="product-price">
                                 {formatCurrency(product.price)}
                             </div>
+                            <div className="product-fitter">
+                            <div className="product-fit">
+                              Average Fit {product.averageFit}
+                              </div>
+                             <div className="product-overall">
+                              Average Overall {product.averageOverall}
+                              </div>
+                              <div className="product-quality">
+                                    Average Quality {product.averageQuality}
+                              </div>
+                            
+                            </div>
                         </div>
 
                     ))}
@@ -94,6 +106,7 @@ export default class Products extends Component {
         );
     }
 }
+
 
 
 
