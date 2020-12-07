@@ -7,8 +7,8 @@
     margin-top: 20px;
     position: absolute;
     top: 10%;
-    left: 15%;
-    padding-bottom: 20px;
+
+
   
   }
   .product{
@@ -91,3 +91,12 @@
 
 
 
+
+
+
+@media screen and (width: 300px) {
+ .products {
+    padding-left: 20px;
+  }
+
+}
