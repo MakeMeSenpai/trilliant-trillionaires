@@ -21,7 +21,7 @@ export default function Login() {
             setError("")
             setLoading(true)
             await login(emailRef.current.value, passwordRef.current.value)
-            history.push("/catelog")
+            history.push("/catalog")
         } catch {
             setError("Failed to log in")
         }
@@ -31,18 +31,15 @@ export default function Login() {
 
     }
 
-    let sectionStyle = {
-        width: "100",
-        height: "100",
-        backgroundImage: "url(" + Background + ")"
-    };
 
 
     return (
 
         <div className="align">
-            <h2>Log in</h2>
+    
             <form onSubmit={handleSubmit} className="form" >
+            <div className="login" >Log in</div>
+       
 
                 <label htmlFor="login-email">Email</label>
                 <input
@@ -68,6 +65,7 @@ export default function Login() {
                     Need an account? <Link to="/signup">Sign Up</Link>
                 </div>
             </form>
+
         </div>
 
     );

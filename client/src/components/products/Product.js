@@ -5,11 +5,8 @@ import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import './product.css'
 import InputAdornment from '@material-ui/core/InputAdornment';
-import Popover from '@material-ui/core/Popover';
 import SearchIcon from '@material-ui/icons/Search';
-import Chip from '@material-ui/core/Chip';
-
-
+import Rating from '@material-ui/lab/Rating';
 
 function searchingFor(term) {
     return function (x) {
@@ -31,14 +28,12 @@ export default class Products extends Component {
         this.setState({ term: event.target.value })
     }
 
-
-
     render() {
         const { term, product } = this.state;
         return (
             <div className="product-display">
 
-<Autocomplete
+                <Autocomplete
                     className="searchTerm"
                     freeSolo
                     disableClearable
@@ -57,21 +52,11 @@ export default class Products extends Component {
                                         <SearchIcon fontSize="small" />
                                     </InputAdornment>
                                 ),
-
                             }}
                             placeholder="Search clothes..."
-
-
                         />
-
-
-
                     )}
-
-
-
                 />
-
                 <div className="products" >
                     {this.props.products.filter(searchingFor(term)).map((product) => (
                         <div className="product" key={product._id}>
@@ -85,6 +70,7 @@ export default class Products extends Component {
                             <div className="product-price">
                                 {formatCurrency(product.price)}
                             </div>
+                            <Rating name="read-only" defaultValue={4} readOnly /> 
                             <div className="product-fitter">
                             <div className="product-fit">
                               Average Fit {product.averageFit}
@@ -93,9 +79,8 @@ export default class Products extends Component {
                               Average Overall {product.averageOverall}
                               </div>
                               <div className="product-quality">
-                                    Average Quality {product.averageQuality}
+                                Average Quality {product.averageQuality}
                               </div>
-                            
                             </div>
                         </div>
 
