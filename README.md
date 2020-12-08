@@ -28,8 +28,10 @@ Back End Lead: [farhan-begg](https://github.com/farhan-begg)<br>
 Design Lead/Gitmaster: [MakeMeSenpai](https://github.com/makemesenpai)<br>
 
 ## Designs
-![design1](images/design.png)
-![design2](images/design2.png)
+![design3](client/public/images/landing.jpg)
+![design1](client/public/images/form.jpg)
+![design2](client/public/images/catalog.jpg)
+
 
 ## Link
 [Trilliant Live Link](https://trilliant-5ed97.web.app/)
